@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Poster Room Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="poster_room.js"></script>
+    <link rel="stylesheet" type="text/css" href="poster_room.css">
+  </head>
+  <body>
+    <h1>Online Poster Room Example</h1>
+    <div id="jobim_poster_browser">&nbsp;</div>
+    <script type="text/javascript">// <![CDATA[
+      var jobim = {poster_show: false, lang: 'en'};
+      $(function () {
+        $.getJSON("poster_room.json", function(json_data) {
+          jobim = json_data;
+        })
+        .fail(function (jqxhr, textStatus, error) {
+          var err = textStatus + ", " + error;
+          console.log('Failed to load JSON data: ' + err);
+        })
+        .always(function () {
+          jobim_init_poster_room(jobim);
+        });
+      });
+    // ]]></script>
+  </body>
+</html>

@@ -1,0 +1,4287 @@
+{
+  "poster_show": true,
+  "lang": "en",
+  "meeting_room_base_url": "https://meet.jit.si/jobim2020_",
+  "poster_base_url": "https://www.sfbi.fr/sites/sfbi.fr/files/jobim/jobim2020/posters/compressed/",
+  "thumbnail_base_url": "https://www.sfbi.fr/sites/sfbi.fr/files/jobim/jobim2020/posters/thumbnails/",
+  "filter_list": ["categories", "authors"],
+  "match_list": ["title", "keywords", "number"],
+  "labels": {
+    "closed": {
+      "en": "The virtual poster room is currently closed. Please come back later, thanks for your visit.",
+      "fr": "La salle virtuelle des posters est actuellement fermée. Veuillez repasser plus tard, merci pour votre visite."
+    },
+    "authors": {
+      "en": "Authors",
+      "fr": "Auteurs"
+    },
+    "institutes": {
+      "en": "Institutes",
+      "fr": "Instituts"
+    },
+    "keywords": {
+      "en": "Keywords",
+      "fr": "Mots clés"
+    },
+    "categories": {
+      "en": "Categories",
+      "fr": "Categories"
+    },
+    "room": {
+      "en": "Room",
+      "fr": "Salle"
+    },
+    "pdf": {
+      "en": "Download PDF",
+      "fr": "Télécharger le PDF"
+    },
+    "title_filter": {
+      "en": "Title contains",
+      "fr": "Le titre contient"
+    },
+    "keywords_filter": {
+      "en": "Containing keywords",
+      "fr": "Contenant les mots clés"
+    },
+    "number_filter": {
+      "en": "Poster number",
+      "fr": "Numéro du poster"
+    },
+    "posters_count": {
+      "en": "Displaying",
+      "fr": "Selection de "
+    },
+    "over": {
+      "en": "over",
+      "fr": "sur"
+    },
+    "posters": {
+      "en": "posters",
+      "fr": "posters"
+    },
+    "NGS": {
+      "en": "Algo/NGS",
+      "fr": "Algo/NGS"
+    },
+    "service": {
+      "en": "Database &amp; Service",
+      "fr": "Base de données &amp; service"
+    },
+    "evolution": {
+      "en": "Evolution, phylogenetics and population genetics",
+      "fr": "Évolution, phylogénétique et génétique des populations"
+    },
+    "functional genomics": {
+      "en": "Functional genomics",
+      "fr": "Génomique fonctionnelle"
+    },
+    "metabolomics": {
+      "en": "Metabolomics",
+      "fr": "Métabolomique"
+    },
+    "metagenomics": {
+      "en": "Metagenomics",
+      "fr": "Métagénomique"
+    },
+    "FAIR": {
+      "en": "Reproductibility, open science, workflows, FAIR",
+      "fr": "Reproductibilité, open science, workflows, FAIR"
+    },
+    "stat": {
+      "en": "Statistics, Machine Learning and AI",
+      "fr": "Statistiques, Machine Learning et I.A."
+    },
+    "structure": {
+      "en": "Structural bioinformatics &amp; Protein annotations",
+      "fr": "Bioinformatique Structurelle &amp; Annotation des Protéines"
+    },
+    "system": {
+      "en": "Systems Biology",
+      "fr": "Biologie des systèmes"
+    },
+    "medicine": {
+      "en": "Variant calling &amp; Medicine",
+      "fr": "Variant calling &amp; Médecine"
+    },
+    "visualization": {
+      "en": "Visualization",
+      "fr": "Visualisation"
+    }
+  },
+  "posters": [{
+      "number": 4,
+      "title": "SAMBA: a flexible automated workflow for the reproducible and standardized processing of eDNA metabarcoding data",
+      "keywords": "Metabarcoding, Workflow, eDNA",
+      "authors": {
+        "Laure Quintric": true,
+        "Cyril Noël": true,
+        "Laura Leroi": true,
+        "Alexandre Cormier": true,
+        "Patrick Durand": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_4",
+      "poster": "jobim2020_poster_4.pdf",
+      "thumbnail": "jobim2020_poster_4.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 5,
+      "title": "TimeNexus identifies dynamic pathways from gene expression time-series with temporal networks",
+      "keywords": "bioinformatics, transcriptomics, RNA-sequencing, multi-layer network, time course, pathway analysis, cellular responses, Cytoscape",
+      "authors": {
+        "Michaël Pierrelée": true,
+        "Laurent Tichit": true,
+        "Bianca Habermann": true,
+        "Fabrice Lopez": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_5",
+      "poster": "jobim2020_poster_5.pdf",
+      "thumbnail": "jobim2020_poster_5.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 6,
+      "title": "Online exploration of transcription profiles along B. subtilis and S. aureus",
+      "keywords": "transcriptomic profiles, visualization interface, exploration",
+      "authors": {
+        "Sandra Dérozier": true,
+        "Pierre Nicolas": true,
+        "Ulrike Mäder": true,
+        "Cyprien Guérin": true
+      },
+      "categories": {
+        "visualization": true
+      },
+      "room": "poster_6",
+      "poster": "jobim2020_poster_6.pdf",
+      "thumbnail": "jobim2020_poster_6.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 7,
+      "title": "Benchmarking joint multi-omics dimensionality reduction approaches for cancer study",
+      "keywords": "Matrix factorization, Dimensionality reduction, Data integration, Multi-omics, Cancer, Single-Cell",
+      "authors": {
+        "Laura Cantini": true,
+        "Pooya Zakeri": true,
+        "Céline Hernandez": true,
+        "Aurelien Naldi": true,
+        "Denis Thieffry": true,
+        "Elisabeth Remy": true,
+        "Anais Baudot": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_7",
+      "poster": "jobim2020_poster_7.pdf",
+      "thumbnail": "jobim2020_poster_7.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 9,
+      "title": "Whole metagenome analysis with metagWGS",
+      "keywords": "metagenomics, Nextflow pipeline, workflow, whole genome shotgun sequencing data, Illumina short reads, mycotoxins",
+      "authors": {
+        "Joanna Fourquet": true,
+        "Céline Noirot": true,
+        "Christophe Klopp": true,
+        "Philippe Pinton": true,
+        "Sylvie Combes": true,
+        "Claire Hoede": true,
+        "Géraldine Pascal": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_9",
+      "poster": "jobim2020_poster_9.pdf",
+      "thumbnail": "jobim2020_poster_9.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 12,
+      "title": "RNA-seq Nextflow pipeline",
+      "keywords": "RnaSeq, Nextflow, pipeline, parallelization",
+      "authors": {
+        "Souhila Amanzougarene": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_12",
+      "poster": "jobim2020_poster_12.pdf",
+      "thumbnail": "jobim2020_poster_12.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 13,
+      "title": "Exome and CNV Sequencing Analysis pipeline with Nextflow",
+      "keywords": "WES, Nextflow, CoDE-seq, Workflow, NGS",
+      "authors": {
+        "Alaa Badreddine": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_13",
+      "poster": "jobim2020_poster_13.pdf",
+      "thumbnail": "jobim2020_poster_13.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 14,
+      "title": "HiC DOC: detecting and comparing genomic compartments",
+      "keywords": "hi-c, genomic compartments, bias correction, unsupervised learning, differential analysis",
+      "authors": {
+        "Cyril Kurylo": true,
+        "Sylvain Foissac": true,
+        "Matthias Zytnicki": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_14",
+      "poster": "jobim2020_poster_14.pdf",
+      "thumbnail": "jobim2020_poster_14.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 15,
+      "title": "Metage2Metabo: metabolic complementarity applied to genomes of large-scale microbiotas for the identification of keystone species",
+      "keywords": "systems biology, microbiota, metagenomics, metabolism, metabolic network, keystone species",
+      "authors": {
+        "Arnaud Belcour": true,
+        "Clémence Frioux": true,
+        "Méziane Aite": true,
+        "Anthony Bretaudeau": true,
+        "Falk Hildebrand": true,
+        "Anne Siegel": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_15",
+      "poster": "jobim2020_poster_15.pdf",
+      "thumbnail": "jobim2020_poster_15.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 16,
+      "title": "MetIDfyR, an open-source R script to decipher small-molecule drug metabolism through high resolution mass spectrometry: Application in doping control",
+      "keywords": "High-Resolution Mass Spectrometry, Drug testing, Small molecules, Bioinformatic, Cheminformatic, Metabolism, Data-mining, Untargeted analysis",
+      "authors": {
+        "Agnès Barnabé": true,
+        "Vivian Delcourt": true,
+        "Benoît Loup": true,
+        "Patrice Garcia": true,
+        "François André": true,
+        "Benjamin Chabot": true,
+        "Yves Moulard": true,
+        "Marie-Agnès Popot": true,
+        "Ludovic Bailly-Chouriberry": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_16",
+      "poster": "jobim2020_poster_16.pdf",
+      "thumbnail": "jobim2020_poster_16.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 19,
+      "title": "MEMHDX v2: implementation of new functionalities and redesign of MEMHDX - An interactive tool to expedite the statistical validation and visualization of large HDX-MS datasets.",
+      "keywords": "HDX-MS, Statistical modelling, Web application, UX design",
+      "authors": {
+        "Stevenn Volant": true,
+        "Rachel Torchet": true,
+        "Véronique Hourdel": true,
+        "Sébastien Brier": true
+      },
+      "categories": {},
+      "room": "poster_19",
+      "poster": "jobim2020_poster_19.pdf",
+      "thumbnail": "jobim2020_poster_19.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 20,
+      "title": "In silico characterization of the gene repertoires of immunoglobulins and T cell receptors of the various inbred laboratory strains of Mus musculus",
+      "keywords": "immunogenetics, immunoinformatics, inbred mice, characterization",
+      "authors": {
+        "Anna Tran": true,
+        "Géraldine Folch": true,
+        "Véronique Giudicelli": true,
+        "Sofia Kossida": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_20",
+      "poster": "jobim2020_poster_20.pdf",
+      "thumbnail": "jobim2020_poster_20.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 21,
+      "title": "VCFProcessor:  a complete toolbox for improved VCF file analysis",
+      "keywords": "VCF, NGS, Variants",
+      "authors": {
+        "Thomas Ludwig": true,
+        "Gaelle Marenne": true,
+        "Emmanuelle Génin": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_21",
+      "poster": "jobim2020_poster_21.pdf",
+      "thumbnail": "jobim2020_poster_21.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 22,
+      "title": "The BIBS service (Bioinformatics and Biostatistics) at the Centre International de Recherche en Infectiologie (CIRI)",
+      "keywords": "Bioinformatics, Biostatistics, Infectiology, high-throughput sequencing",
+      "authors": {
+        "Marie Cariou": true,
+        "Omran Allatif": true,
+        "Antoine Corbin": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_22",
+      "poster": "jobim2020_poster_22.pdf",
+      "thumbnail": "jobim2020_poster_22.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 23,
+      "title": "A pipeline for quality control of target-enrichment DNA sequencing data",
+      "keywords": "NGS, Capture, Quality control, Pipeline",
+      "authors": {
+        "Chloé Beaumont": true,
+        "Sophie Gallina": true,
+        "Vincent Castric": true,
+        "Mathieu Genete": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_23",
+      "poster": "jobim2020_poster_23.pdf",
+      "thumbnail": "jobim2020_poster_23.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 24,
+      "title": "Exome sequencing allows detection of relevant pharmacogenetics variants in epileptic patients.",
+      "keywords": "Personalized medicine, Predictive medicine, Genomic",
+      "authors": {
+        "Simon Verdez": true,
+        "Philippine Garret": true,
+        "Emilie Tisserant": true,
+        "Céline Verstuyft": true,
+        "Antonio Vitobello": true,
+        "Frédéric Tran Mau-Them": true,
+        "Christophe Philippe": true,
+        "Marc Bardou": true,
+        "Maxime Luu": true,
+        "Juliette Albuisson": true,
+        "Abderrahmane Bourredjem": true,
+        "Patrick Callier": true,
+        "Christel Thauvin-Robinet": true,
+        "Laurence Faivre": true,
+        "Yannis Duffourd": true,
+        "Nicolas Picard": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_24",
+      "poster": "jobim2020_poster_24.pdf",
+      "thumbnail": "jobim2020_poster_24.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 25,
+      "title": "Pipeline for ribosome profiling analysis (RiboSeq)",
+      "keywords": "Bioinformatics analysis, Pipeline, Ribosome profiling, Quality control, Omics, Standardization",
+      "authors": {
+        "Pauline François": true,
+        "Stéphane Demais": true,
+        "Olivier Namy": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_25",
+      "poster": "jobim2020_poster_25.pdf",
+      "thumbnail": "jobim2020_poster_25.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 26,
+      "title": "Automated solutions for big genomic data treatment in the context of the medical diagnosis platform SeqOIA",
+      "keywords": "SeqOIA, Spice, GLeaves, Medical diagnosis pipelines, Docker, Snakemake",
+      "authors": {
+        "Adrien Legendre": true,
+        "Virginie Saillour": true,
+        "Mario Néou": true,
+        "Nicolas Derive": true,
+        "Camille Barette": true,
+        "Mouhamadou Niang": true,
+        "Jocelyn Brayet": true,
+        "Alban Lermine": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_26",
+      "poster": "jobim2020_poster_26.pdf",
+      "thumbnail": "jobim2020_poster_26.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 28,
+      "title": "The Migale bioinformatics facility",
+      "keywords": "service, training, bacterial genomics, metagenomics, metabarcoding, metatranscriptomics",
+      "authors": {
+        "Valentin Loux": true,
+        "Mouhamadou Ba": true,
+        "Damien Berry": true,
+        "Hélène Chiapello": true,
+        "David Christiany": true,
+        "Sandra Dérozier": true,
+        "Olivier Inizan": true,
+        "Mahendra Mariadassou": true,
+        "Véronique Martin": true,
+        "Cédric Midoux": true,
+        "Olivier Rué": true,
+        "Claire Vincent": true,
+        "Valérie Vidal": true,
+        "Sophie Schbath": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_28",
+      "poster": "jobim2020_poster_28.pdf",
+      "thumbnail": "jobim2020_poster_28.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 30,
+      "title": "SingleCellSignalR: Reconstructing stromal molecular networks from tumor single cell transcriptomes",
+      "keywords": "Single cell sequencing, systems biology, ligand-receptor interactions",
+      "authors": {
+        "Simon Cabello-Aguilar": true,
+        "Jacques Colinge": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_30",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 31,
+      "title": "Functional inference integrated in the FROGS suite",
+      "keywords": "functional inference, FROGS, PICRUsT2, Galaxy, pathway prediction, metabarcoding, metagenomics, markers",
+      "authors": {
+        "Moussa Samb": true,
+        "Maria Bernard": true,
+        "Geraldine Pascal": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_31",
+      "poster": "jobim2020_poster_31.pdf",
+      "thumbnail": "jobim2020_poster_31.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 32,
+      "title": "Auvergne Bioinformatics platform at UCA Mesocentre",
+      "keywords": "Platform, Mesocentre, Galaxy, OMERO",
+      "authors": {
+        "Nadia Goué": true,
+        "David Grimbichler": true,
+        "Pierre Peyret": true,
+        "Antoine Mahul": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_32",
+      "poster": "jobim2020_poster_32.pdf",
+      "thumbnail": "jobim2020_poster_32.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 33,
+      "title": "Sex-specific transcriptomic signatures of Non-Alcoholic SteatoHepatitis (NASH)",
+      "keywords": "NASH, Sexual dimorphism, Transcriptomic signatures, Random forest",
+      "authors": {
+        "Jimmy Vandel": true,
+        "Julie Dubois-Chevalier": true,
+        "Céline Gheeraert": true,
+        "Bruno Derudas": true,
+        "Violetta Raverdy": true,
+        "Dorothée Thuillier": true,
+        "Luc Van Gaal": true,
+        "Sven Francque": true,
+        "François Pattou": true,
+        "Bart Staels": true,
+        "Jérôme Eeckhoute": true,
+        "Philippe Lefebvre": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_33",
+      "poster": "jobim2020_poster_33.pdf",
+      "thumbnail": "jobim2020_poster_33.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 34,
+      "title": "PanGBank: exploring GenBank genomes through a resource of pangenome graphs",
+      "keywords": "Comparative genomics, pangenome, database, procaryotes",
+      "authors": {
+        "Paul Amours": true,
+        "Adelme Bazin": true,
+        "Guillaume Gautreau": true,
+        "Mathieu Dubois": true,
+        "Laura Burlot": true,
+        "Alexandra Calteau": true,
+        "David Vallenet": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_34",
+      "poster": "jobim2020_poster_34.pdf",
+      "thumbnail": "jobim2020_poster_34.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 35,
+      "title": "Systematic Analysis of Protein Post-translational Modifications at a Proteomic Scale in the pathogenic yeast Candida albicans",
+      "keywords": "Post-translational Modifications, Mass spectrometry, Bottom-up proteomics, Protein identification, Candida albicans",
+      "authors": {
+        "Thomas Denecker": true,
+        "Nicolas Senecaut": true,
+        "Pierre Poulain": true,
+        "Gaëlle Lelandais": true,
+        "Jean-Michel Camadro": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_35",
+      "poster": "jobim2020_poster_35.pdf",
+      "thumbnail": "jobim2020_poster_35.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 37,
+      "title": "DeepOmics, a Digital Environmental Engineering Platform for meta-omics data",
+      "keywords": "data warehouse, meta-omics data, environmental biotechnologies, FAIR data",
+      "authors": {
+        "Ariane Bize": true,
+        "Guillaume Perréal": true,
+        "Aurélie Gramusset": true,
+        "Marion Predhumeau": true,
+        "Cédric Midoux": true,
+        "Valentin Loux": true,
+        "Yannick Fayolle": true,
+        "Patrick Dabert": true,
+        "Théodore Bouchez": true,
+        "Nicolas Raidelet": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_37",
+      "poster": "jobim2020_poster_37.pdf",
+      "thumbnail": "jobim2020_poster_37.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 38,
+      "title": "MicroScope: an integrated platform for the annotation and exploration of microbial gene functions through genomic, pangenomic and metabolic comparative analysis",
+      "keywords": "microbial genomics, metabolic pathways, expert annotation, platform",
+      "authors": {
+        "David Vallenet": true,
+        "Alexandra Calteau": true,
+        "Paul Amours": true,
+        "Jérôme Arnoux": true,
+        "Adelme Bazin": true,
+        "Mylène Beuvin": true,
+        "Laura Burlot": true,
+        "Xavier Bussell": true,
+        "Mathieu Dubois": true,
+        "Stéphanie Fouteau": true,
+        "Aurélie Lajus": true,
+        "David Roche": true,
+        "Zoé Rouy": true,
+        "Claudine Médigue": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_38",
+      "poster": "jobim2020_poster_38.pdf",
+      "thumbnail": "jobim2020_poster_38.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 39,
+      "title": "Testing markers to characterize microbial communities in food ecosystems using metagenomics approach",
+      "keywords": "Food ecosystems, Metabarcoding, Fungi, Mock",
+      "authors": {
+        "Claire Vincent": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_39",
+      "poster": "jobim2020_poster_39.pdf",
+      "thumbnail": "jobim2020_poster_39.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 40,
+      "title": "Extraction of logic gates in metabolics pathways",
+      "keywords": "Enzymatic logic gates, biochemical programming, diagnostics, metabolic pathways",
+      "authors": {
+        "Patrick Amar": true,
+        "Martin Davy": true,
+        "Liza Felicori": true,
+        "Franck Molina": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_40",
+      "poster": "jobim2020_poster_40.pdf",
+      "thumbnail": "jobim2020_poster_40.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 41,
+      "title": "Iscard: A tool to detect Copy Number Variation from targeted analysis sequencing",
+      "keywords": "NGS, CNV, diagnosis, bam",
+      "authors": {
+        "Sacha Schutz": true
+      },
+      "categories": {},
+      "room": "poster_41",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 43,
+      "title": "Comparison of plasmid prediction tools to assess the plasmidome of Salmonella enterica",
+      "keywords": "plasmids, prediction tools assessment, Salmonella enterica",
+      "authors": {
+        "Pauline Barbet": true,
+        "Pierre-Emmanuel Douarre": true,
+        "Arnaud Felten": true,
+        "Nicolas Radomski": true,
+        "Laurent Laloux": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_43",
+      "poster": "jobim2020_poster_43.pdf",
+      "thumbnail": "jobim2020_poster_43.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 44,
+      "title": "Pseudo mitosis during differentiation in Multiciliated cells to drive de novo centriole amplification",
+      "keywords": "Chromosome Conformation Capture, Hi-C, ciliogenesis",
+      "authors": {
+        "Tran Bich Ngoc Cao": true,
+        "Romain Koszul": true,
+        "Alice Meunier": true,
+        "Cyril Matthey-Doret": true,
+        "Agnes Thierry": true,
+        "Michella Khoury Damaa": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_44",
+      "poster": "jobim2020_poster_44.pdf",
+      "thumbnail": "jobim2020_poster_44.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 45,
+      "title": "AOP4EUpest: Combining text mining and graph theory to map pesticides into Adverse Outcome Pathways",
+      "keywords": "Pesticides, Adverse Outcome Pathways, Text mining",
+      "authors": {
+        "Florence Jornod": true,
+        "Marylène Rugard": true,
+        "Jean-Charles Carvaillo": true,
+        "Xavier Coumoul": true,
+        "Robert Barouki": true,
+        "Karine Audouze": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_45",
+      "poster": "jobim2020_poster_45.pdf",
+      "thumbnail": "jobim2020_poster_45.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 46,
+      "title": "Shallow shotgun metagenomics workflow validation",
+      "keywords": "Bioinformatics, Shotgun metagenomics, Next generation Sequencing, Microbiome",
+      "authors": {
+        "Younous Adrouji": true,
+        "Yao Amouzou": true,
+        "Thomas Carton": true,
+        "Sophie Le Fresne-Languille": true,
+        "Morgane Pierre": true,
+        "Erwann Scaon": true,
+        "Pauline Vaissié": true,
+        "Sébastien Leuillet": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_46",
+      "poster": "jobim2020_poster_46.pdf",
+      "thumbnail": "jobim2020_poster_46.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 47,
+      "title": "A shotgun metagenomics analysis applied to the ecological engineering of anaerobic microbial communities for the production of hydrogen from Citrus Peel Waste",
+      "keywords": "metagenomics, pipeline, ecological engineering",
+      "authors": {
+        "Cédric Midoux": true,
+        "Franciele Camargo": true,
+        "Olivier Rué": true,
+        "Mahendra Mariadassou": true,
+        "Valentin Loux": true,
+        "Maria Bernadete Amâncio Varesche": true,
+        "Ariane Bize": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_47",
+      "poster": "jobim2020_poster_47.pdf",
+      "thumbnail": "jobim2020_poster_47.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 48,
+      "title": "Comparison of Bacterial Metabarcoding Analysis Pipelines for Species-level Identification",
+      "keywords": "NGS, Metabarcoding, Microbiome, Pipeline, Species-level",
+      "authors": {
+        "Yao Amouzou": true,
+        "Damien Chauveau": true,
+        "Younous Adrouji": true,
+        "Xuwen Wieneke": true,
+        "Erwann Scaon": true,
+        "Sarita Raengpradub Wheeler": true,
+        "Sébastien Leuillet": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_48",
+      "poster": "jobim2020_poster_48.pdf",
+      "thumbnail": "jobim2020_poster_48.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 49,
+      "title": "CGST : New Core-Genome Sequence Typing Tool",
+      "keywords": "Multi Locus Sequence Typing, Core-Genome, Sequence Typing",
+      "authors": {
+        "Aurélien Birer": true,
+        "Richard Bonnet": true
+      },
+      "categories": {},
+      "room": "poster_49",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 51,
+      "title": "A graph-based approach to classify A-minor motifs in RNA structures according to their structural context",
+      "keywords": "RNA 3D folding, A-minor motifs, clustering, graph comparison",
+      "authors": {
+        "Coline Gianfrotta": true,
+        "Vladimir Reinharz": true,
+        "Olivier Lespinet": true,
+        "Dominique Barth": true,
+        "Alain Denise": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_51",
+      "poster": "jobim2020_poster_51.pdf",
+      "thumbnail": "jobim2020_poster_51.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 52,
+      "title": "Chromatin Conformation Capture unveils mechanisms for DNA Double-Strand Breaks repair foci formation",
+      "keywords": "Chromatin Conformation Capture, DNA repair, Topologically Associating Domain",
+      "authors": {
+        "Coline Arnould": true,
+        "Vincent Rocher": true,
+        "Raphaël Mourad": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_52",
+      "poster": "jobim2020_poster_52.pdf",
+      "thumbnail": "jobim2020_poster_52.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 53,
+      "title": "Florilege, a database gathering microbial habitats, phenotypes and uses",
+      "keywords": "database, text-mining, habitats, phenotypes, microbiology",
+      "authors": {
+        "Sandra Dérozier": true,
+        "Louise Deléger": true,
+        "Estelle Chaix": true,
+        "Reda Mekdad": true,
+        "Mouhamadou Ba": true,
+        "Robert Bossy": true,
+        "Delphine Sicard": true,
+        "Valentin Loux": true,
+        "Hélène Falentin": true,
+        "Claire Nédellec": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_53",
+      "poster": "jobim2020_poster_53.pdf",
+      "thumbnail": "jobim2020_poster_53.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 54,
+      "title": "Benchmarking the accuracy of whole-genome sequencing in saliva through pseudo-replication",
+      "keywords": "",
+      "authors": {
+        "Anthony Herzig": true,
+        "Lourdes Velo-suárez": true,
+        "Gaëlle Le Folgoc": true,
+        "Anne Boland": true,
+        "Hélène Blanché": true,
+        "Robert Olaso": true,
+        "Liana Le Roux": true,
+        "Christelle Delmas": true,
+        "Marcel Goldberg": true,
+        "Marie Zins": true,
+        "Jean-François Deleuze": true,
+        "Emmanuelle Génin": true
+      },
+      "categories": {},
+      "room": "poster_54",
+      "poster": "jobim2020_poster_54.pdf",
+      "thumbnail": "jobim2020_poster_54.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 55,
+      "title": "Where are the dual C/E domains in NRPS originated from?",
+      "keywords": "Bacteria, lipopeptides, NonRibosomal peptide Synthases, Phylogeny",
+      "authors": {
+        "Clémentine Campart": true,
+        "Loïc Couderc": true,
+        "Matthieu Duban": true,
+        "Valérie Leclere": true,
+        "Maude Pupin": true
+      },
+      "categories": {},
+      "room": "poster_55",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 56,
+      "title": "COBRA: an automated RNA-seq data analysis pipeline.",
+      "keywords": "RNAseq, pipeline, snakemake",
+      "authors": {
+        "Hatira Skander": true,
+        "Frederic Grandjean": true,
+        "Bouziane Moumen": true
+      },
+      "categories": {},
+      "room": "poster_56",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 57,
+      "title": "Gut microbiota and clinical efficacy of immunotherapy in renal cell carcinoma",
+      "keywords": "Renal cell carcinoma, cancer, gut microbiota, richness, species, abundance, responder, non responder, immune checkpoint inhibitors, metagenomic species, bacteria, treatment",
+      "authors": {
+        "Laurie Alla": true,
+        "Lisa Derosa": true,
+        "Valerio Iebba": true,
+        "Emmanuelle Le Chatelier": true,
+        "Laurence Zitvogel": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_57",
+      "poster": "jobim2020_poster_57.pdf",
+      "thumbnail": "jobim2020_poster_57.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 58,
+      "title": "Unveiling cancer cell and tumor microenvironment interactions at the single cell level in colorectal-cancer liver metastases",
+      "keywords": "Single Cell RNAseq, tumor heterogeneity, microenvironment, cancer associated fibroblasts",
+      "authors": {
+        "Ambre Giguelay": true,
+        "Andrei Turtoi": true,
+        "Jacques Colinge": true,
+        "Ander Churruca Schuind": true,
+        "Barbara Chiavarina": true,
+        "Simon Cabello-Aguilar": true,
+        "Pierre-Emmanuel Colombo": true,
+        "Lakhdar Khellaf": true,
+        "Didier Pourquier": true
+      },
+      "categories": {},
+      "room": "poster_58",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 59,
+      "title": "Detection of fusion genes for cancer diagnostic: good practices from the SeqOIA project",
+      "keywords": "Fusion genes, Genomics, Cancer, Personalized medicine, Benchmark",
+      "authors": {
+        "Tom Gutman": true,
+        "Mario Néou": true,
+        "Nicolas Servant": true,
+        "Alban Lermine": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_59",
+      "poster": "jobim2020_poster_59.pdf",
+      "thumbnail": "jobim2020_poster_59.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 60,
+      "title": "PanFam: a pangenomic work ow for the iterative construction of gene families on thousands of genome",
+      "keywords": "Pangenomics, Comparative genomics, Gene families, Homology",
+      "authors": {
+        "Jérôme Arnoux": true,
+        "Mylène Beuvin": true,
+        "Adelme Bazin": true,
+        "Alexandra Calteau": true,
+        "Vallenet David": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_60",
+      "poster": "jobim2020_poster_60.pdf",
+      "thumbnail": "jobim2020_poster_60.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 62,
+      "title": "Sequencing, Assembly and Annotation of 40 Brown Algae Genomes",
+      "keywords": "Comparative genomics, Oxford Nanopore Technology, Gene prediction",
+      "authors": {
+        "Nachida Tadrent": true,
+        "Corinne Cruaud": true,
+        "Arnaud Couloux": true,
+        "Corinne Da Silva": true,
+        "Benjamin Noel": true,
+        "Olivier Godfroy": true,
+        "Zofia Nehr": true,
+        "Erwan Corre": true,
+        "Susana M. Coelho": true,
+        "France Denoeud": true,
+        "Patrick Wincker": true,
+        "Jean-Marc Aury": true,
+        "Mark J. Cock": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_62",
+      "poster": "jobim2020_poster_62.pdf",
+      "thumbnail": "jobim2020_poster_62.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 63,
+      "title": "Single cell transcriptome analyses of microglia inflammatory response during development",
+      "keywords": "single cell, neuroinflammation, microglia, transcriptome, indrop, targeted single cell, workflow",
+      "authors": {
+        "Adrien Dufour": true,
+        "Sophie Foulon": true,
+        "Amazigh Mokhtari": true,
+        "Juliette Van Steenwinckel": true,
+        "Pierre Gressens": true,
+        "Philippe Nghe": true,
+        "Andrée Delahaye-Duriez": true
+      },
+      "categories": {},
+      "room": "poster_63",
+      "poster": "jobim2020_poster_63.pdf",
+      "thumbnail": "jobim2020_poster_63.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 64,
+      "title": "RGCCA Shiny, a graphical package for multimodal omics data analysis: application to Parkinson’s disease",
+      "keywords": "Canonical Correlation Analysis, Multidimensional analysis, Integration, Shiny, omics, biomarkers",
+      "authors": {
+        "Etienne Camenen": true,
+        "Caroline Peltier": true,
+        "François-Xavier Lejeune": true,
+        "Arthur Tenenhaus": true,
+        "Ivan Moszer": true
+      },
+      "categories": {
+        "visualization": true
+      },
+      "room": "poster_64",
+      "poster": "jobim2020_poster_64.pdf",
+      "thumbnail": "jobim2020_poster_64.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 67,
+      "title": "Weighted multiple testing procedures in Genome-Wide Association Studies",
+      "keywords": "multiple testing, weighted procedures, genome wide association studies",
+      "authors": {
+        "Ludivine Obry": true,
+        "Cyril Dalmasso": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_67",
+      "poster": "jobim2020_poster_67.pdf",
+      "thumbnail": "jobim2020_poster_67.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 69,
+      "title": "Circular RNAs detection and cross-species conservation",
+      "keywords": "RNAs, genomics, circular RNAs, bioinformatics, RNAseq, pipeline, eukaryote, cross-species conservation",
+      "authors": {
+        "Chloé Cerutti": true,
+        "Annie Robic": true,
+        "Thomas Faraut": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_69",
+      "poster": "jobim2020_poster_69.pdf",
+      "thumbnail": "jobim2020_poster_69.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 71,
+      "title": "Transcriptomics and epigenetics integration analysis to identify co-expressed gene networks as markers of childhood trauma-related major depressive disorder.",
+      "keywords": "Childhood Trauma, Major Depressive Disorder, miRNA, Multiomics, WGCNA",
+      "authors": {
+        "Amazigh Mokhtari": true,
+        "El Chérif Ibrahim": true,
+        "Raoul Belzeaux": true,
+        "Bruno Etain": true,
+        "Cynthia Marie-Claire": true,
+        "Ipek Yalcin": true,
+        "Pierre-Eric Lutz": true,
+        "Andrée Delahaye-Duriez": true
+      },
+      "categories": {},
+      "room": "poster_71",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 72,
+      "title": "New strategy of protein structure prediction: Local fold recognition and Deep learning",
+      "keywords": "",
+      "authors": {
+        "Gabriel Cretin": true,
+        "Charlotte Périn": true,
+        "Madeleine De Sousa Violante": true,
+        "Alexandre G. de Brevern": true,
+        "Tatiana Galochkina": true,
+        "Jean-Christophe Gelly": true
+      },
+      "categories": {},
+      "room": "poster_72",
+      "poster": "jobim2020_poster_72.pdf",
+      "thumbnail": "jobim2020_poster_72.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 73,
+      "title": "PYTHIA: Deep Learning Approach For Local Protein Conformation Prediction",
+      "keywords": "Protein, Structure, Prediction, Deep-learning",
+      "authors": {
+        "Gabriel Cretin": true,
+        "Tatiana Galochkina": true,
+        "Charlotte Périn": true,
+        "Alexandre G. de Brevern": true,
+        "Jean-Christophe Gelly": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_73",
+      "poster": "jobim2020_poster_73.pdf",
+      "thumbnail": "jobim2020_poster_73.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 74,
+      "title": "Controllability in Multiplex Biological Networks for Disease Identification",
+      "keywords": "",
+      "authors": {
+        "Ali Reza Khanteymoori": true,
+        "Soudeh Behrouzinia": true
+      },
+      "categories": {},
+      "room": "poster_74",
+      "poster": "jobim2020_poster_74.pdf",
+      "thumbnail": "jobim2020_poster_74.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 75,
+      "title": "Industrial NGS analysis processes from sequencing to variant interpretation on MOABI platform",
+      "keywords": "",
+      "authors": {
+        "Aminata Ndiaye": true,
+        "Jocelyn Brayet": true,
+        "Maxime Chevaillot": true,
+        "Mathieu Barthelemy": true,
+        "Romain Daveau": true,
+        "Vivien Deshaies": true,
+        "Laurent Frobert": true,
+        "Guillaume Meurice": true,
+        "Alban Lermine": true,
+        "Camille Barette": true
+      },
+      "categories": {},
+      "room": "poster_75",
+      "poster": "jobim2020_poster_75.pdf",
+      "thumbnail": "jobim2020_poster_75.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 76,
+      "title": "ERA-BIO-IT: A new bioinformatics platform for applied research in Plant Breeding",
+      "keywords": "Bioinformatics platform, Plant breeding, Plant genetics, Plant genomics, Applied research, Platforms and services activities",
+      "authors": {
+        "Marion Dupouy": true,
+        "Daniel Cabero": true,
+        "Bruno Claustres": true,
+        "Boris Demenou": true,
+        "Mila Garcia": true,
+        "Delphine Hourcade": true,
+        "Michel Romestant": true,
+        "Jean-Pierre Cohan": true,
+        "Philippe Dufour": true,
+        "Jean-Marc Ferullo": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_76",
+      "poster": "jobim2020_poster_76.pdf",
+      "thumbnail": "jobim2020_poster_76.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 77,
+      "title": "Bioinformatc evaluation of the impact of base quality score recalibration (BQSR) over variant discovery from NGS data",
+      "keywords": "BQSR, Pipeline, GATK, Somatic, Germline, Variant calling, Benchmarking, NGS, GIAB, Optimisation, Quality score",
+      "authors": {
+        "Cyril Fournier": true,
+        "Yannis Duffourd": true,
+        "Mary Callanan": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_77",
+      "poster": "jobim2020_poster_77.pdf",
+      "thumbnail": "jobim2020_poster_77.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 78,
+      "title": "New insights into cow holobiont in relation to health",
+      "keywords": "metabarcoding, diversity analysis, cow microbiota",
+      "authors": {
+        "Mahendra Mariadassou": true,
+        "Sophie Schbath": true,
+        "Sergine Even": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_78",
+      "poster": "jobim2020_poster_78.pdf",
+      "thumbnail": "jobim2020_poster_78.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 79,
+      "title": "Multi-omics integrative approaches for biological meaningful signatures",
+      "keywords": "multi-omics, multiple omics data, clustering, biological signature, feature selection, stratification, data analysis",
+      "authors": {
+        "Florian Jeanneret": true,
+        "Stéphane Gazut": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_79",
+      "poster": "jobim2020_poster_79.pdf",
+      "thumbnail": "jobim2020_poster_79.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 80,
+      "title": "Improving probe design for smFISH experiments",
+      "keywords": "smFish, machine learning, probe",
+      "authors": {
+        "Elodie Simphor": true,
+        "Edouard Bertrand": true,
+        "Charles-Henri Lecellier": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_80",
+      "poster": "jobim2020_poster_80.pdf",
+      "thumbnail": "jobim2020_poster_80.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 81,
+      "title": "pgSNP : Bacterial DNA pangenomic workflow",
+      "keywords": "Genomic, Pangenome, Methodology, Microbiology, Food safety",
+      "authors": {
+        "Madeleine De Sousa Violante": true,
+        "Valérie Michel": true,
+        "Carole Feurer": true,
+        "Nicolas Radomski": true,
+        "Michel-Yves Mistou": true,
+        "Ludovic Mallet": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_81",
+      "poster": "jobim2020_poster_81.pdf",
+      "thumbnail": "jobim2020_poster_81.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 83,
+      "title": "MetExplore: Solutions to access, extend and exploit knowledge of metabolism",
+      "keywords": "Metabolic Network, Metabolic Pathway, Database, Visualization, Metabolomics",
+      "authors": {
+        "Florence Vinson": true,
+        "Ludovic Cottret": true,
+        "Maxime Chazalviel": true,
+        "Amina Taoui": true,
+        "Nathalie Poupin": true,
+        "Clément Frainay": true,
+        "Fabien Jourdan": true
+      },
+      "categories": {},
+      "room": "poster_83",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 84,
+      "title": "ESKRIM: accurate reference-free comparison of microbial richness in shotgun metagenomic samples by k-mers counting",
+      "keywords": "shotgun metagenomics, microbial richness, sequence analysis, reference-free algorithm",
+      "authors": {
+        "Florian Plaza Oñate": true,
+        "Emmanuelle Le Chatelier": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_84",
+      "poster": "jobim2020_poster_84.pdf",
+      "thumbnail": "jobim2020_poster_84.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 85,
+      "title": "Mobidetails, interprétation en ligne des variations génétiques",
+      "keywords": "Diagnostic moléculaire, Interpétation de variants, Application web",
+      "authors": {
+        "David Baux": true,
+        "Charles Van Goethem": true,
+        "Thomas Guignard": true,
+        "Olivier Ardouin": true,
+        "Michel Koenig": true,
+        "Anne-Françoise Roux": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_85",
+      "poster": "jobim2020_poster_85.pdf",
+      "thumbnail": "jobim2020_poster_85.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 86,
+      "title": "IMGT/RNAseq-ImmunoProfile",
+      "keywords": "RNA sequencing, cancer, multiple myeloma, immune profiling, immune repertoire",
+      "authors": {
+        "Benjamin Viart": true,
+        "Véronique Giudicelli": true,
+        "Elina Alaterre": true,
+        "Jerome Moreaux": true,
+        "Sofia Kossida": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_86",
+      "poster": "jobim2020_poster_86.pdf",
+      "thumbnail": "jobim2020_poster_86.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 87,
+      "title": "Pipeline for large scale analysis of amyloidogenic regions in proteomes",
+      "keywords": "bioinformatic, pipeline, large scale analysis, amyloids, structural biology, proteome",
+      "authors": {
+        "Théo Falgarone": true,
+        "Etienne Villain": true,
+        "Jérémy Leclercq": true,
+        "François Richard": true,
+        "Andrey Kajava": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_87",
+      "poster": "jobim2020_poster_87.pdf",
+      "thumbnail": "jobim2020_poster_87.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 88,
+      "title": "Structural prediction of macromolecular interactions using evolutionary information",
+      "keywords": "macromolecular interactions, macromolecular structure, macromolecular evolution, protein docking",
+      "authors": {
+        "Chloé Quignot": true,
+        "Aravindan Arun Nadaradjane": true,
+        "Hélène Bret": true,
+        "Raphael Guerois": true,
+        "Jessica Andreani": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_88",
+      "poster": "jobim2020_poster_88.pdf",
+      "thumbnail": "jobim2020_poster_88.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 89,
+      "title": "Using positional information for predicting transcription factor binding sites",
+      "keywords": "Classification, Transcription factors, Positional information, Machine Learning",
+      "authors": {
+        "Raphaël Romero": true,
+        "Jean-Michel Marin": true,
+        "Sophie Lèbre": true,
+        "Charles-Henri Lecellier": true,
+        "Laurent Bréhélin": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_89",
+      "poster": "jobim2020_poster_89.pdf",
+      "thumbnail": "jobim2020_poster_89.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 91,
+      "title": "Detection of m⁶A RNA modifications using Nanopore direct RNA sequencing",
+      "keywords": "RNA modifications, N6-methyladenosine(m6A) methylation, direct RNA sequencing",
+      "authors": {
+        "Charlotte Berthelier": true,
+        "Médine Benchouaia": true,
+        "Corinne Blugeon": true,
+        "Rana Jurdak": true,
+        "Naira Naouar": true,
+        "Christophe Antoniewski": true,
+        "Christophe Bailly": true
+      },
+      "categories": {},
+      "room": "poster_91",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 92,
+      "title": "Evaluation of isoform characterisation tools using long cDNA sequences",
+      "keywords": "Long read RNA-Seq, MinION sequencing, Trancripts, Isoforms",
+      "authors": {
+        "Sophie Lemoine": true,
+        "Ammara Mohammad": true,
+        "Corinne Blugeon": true,
+        "Laurent Jourdren": true
+      },
+      "categories": {},
+      "room": "poster_92",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 93,
+      "title": "The IBENS Genomics core facility",
+      "keywords": "Genomics core facility, RNA-Seq, Single Cell RNA-Seq, Oxford Nanopore Technologies, Pipelines development",
+      "authors": {
+        "Laurent Jourdren": true,
+        "Médine Benchouaia": true,
+        "Charlotte Berthelier": true,
+        "Corinne Blugeon": true,
+        "Karine Dias": true,
+        "Sophie Lemoine": true,
+        "Catherine Senamaud-Beaufort": true,
+        "Stephane Le Crom": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_93",
+      "poster": "jobim2020_poster_93.pdf",
+      "thumbnail": "jobim2020_poster_93.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 94,
+      "title": "Reconstruction of hidden data in chromosome contact maps",
+      "keywords": "Chromosome organisation, repeated sequences, statistical inference, contact data, HiC, Microbiology",
+      "authors": {
+        "Axel Breuer": true,
+        "Axel Cournac": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_94",
+      "poster": "jobim2020_poster_94.pdf",
+      "thumbnail": "jobim2020_poster_94.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 95,
+      "title": "PEWO: a set of procedures to benchmark species identifications based on phylogenetic placement",
+      "keywords": "phylogenetic placement, benchmarking, species identification, metagenomics, metabarcoding",
+      "authors": {
+        "Benjamin Linard": true,
+        "Nikolai Romashchenko": true,
+        "Fabio Pardi": true,
+        "Eric Rivals": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_95",
+      "poster": "jobim2020_poster_95.pdf",
+      "thumbnail": "jobim2020_poster_95.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 96,
+      "title": "In silico Integration of Heterogeneous Genomic Data:  a method to decipher OvoL/Shavenbaby functions",
+      "keywords": "ChIPseq, RNAseq, Data integration, Transcription factor, Chromatin modification, Drosophila",
+      "authors": {
+        "Alexandra Mancheno-Ferris": true,
+        "Priscilla Lhoumaud": true,
+        "Olivier Cuvier": true,
+        "Cédric Polesello": true,
+        "François Payre": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_96",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 97,
+      "title": "Draft genome sequences of Blastocystis subtypes 1 and 8, and comparative analysis",
+      "keywords": "Blastocystis ST1 & ST8, whole genome, annotation, comparative genomic",
+      "authors": {
+        "Ivan Wawrzyniak": true,
+        "Amandine Cian": true,
+        "Céline Nourrisson": true,
+        "Aldert Bart": true,
+        "Magali Chabé": true,
+        "Philippe Poirier": true,
+        "Tom van Gool": true,
+        "Eric Peyretaillade": true,
+        "Eric Viscogliosi": true,
+        "Fréderic Delbac": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_97",
+      "poster": "jobim2020_poster_97.pdf",
+      "thumbnail": "jobim2020_poster_97.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 98,
+      "title": "Application of the Modular Response Analysis method to highly stable biological systems",
+      "keywords": "Modular Response Analysis, Network, Biological system",
+      "authors": {
+        "Meriem Mekedem": true,
+        "Jacques Colinge": true,
+        "Patrice Ravel": true,
+        "Gabriel Jimenez-Dominguez": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_98",
+      "poster": "jobim2020_poster_98.pdf",
+      "thumbnail": "jobim2020_poster_98.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 99,
+      "title": "Towards exhaustive characterization of structural variation in animals: example of cattle",
+      "keywords": "structural variation, genomic, long reads, sequencing technologies",
+      "authors": {
+        "Arnaud Di Franco": true,
+        "Sarah Djebali": true,
+        "Camille Eche": true,
+        "Denis Milan": true,
+        "Didier Boichard": true,
+        "Christine Gaspin": true,
+        "Cécile Donnadieu": true,
+        "Carole Iampietro": true,
+        "Christophe Klopp": true,
+        "Thomas Faraut": true
+      },
+      "categories": {
+        "medicine": true
+      },
+      "room": "poster_99",
+      "poster": "jobim2020_poster_99.pdf",
+      "thumbnail": "jobim2020_poster_99.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 101,
+      "title": "The antibiotic resistance mobilome in biofilms: Bioinformatic strategies",
+      "keywords": "antibiotic resistance, mobile elements, mobilome, metatranscriptomic, snakemake pipelines",
+      "authors": {
+        "Sophia Achaibou": true,
+        "Elena Buelow": true,
+        "Sean Kennedy": true,
+        "Olivier Chesneau": true,
+        "Catherine Dauga": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_101",
+      "poster": "jobim2020_poster_101.pdf",
+      "thumbnail": "jobim2020_poster_101.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 102,
+      "title": "An evaluation of binning methods to recover human gut microbial pan-genomes from non-redundant reference gene catalog",
+      "keywords": "Human gut microbiota, Metagenomics, Binning",
+      "authors": {
+        "Marianne Borderes": true,
+        "Cyrielle Gasc": true,
+        "Emmanuel Prestat": true,
+        "Mariana Galvão Ferrarini": true,
+        "Susana Vinga": true,
+        "Lilia Boucinha": true,
+        "Marie-France Sagot": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_102",
+      "poster": "jobim2020_poster_102.pdf",
+      "thumbnail": "jobim2020_poster_102.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 103,
+      "title": "Evaluate the impact of abiotic stressors (heat and suboptimal diet) on the gut microbiota of two chicken breeds diverging in feed efficiency, using the 16S rRNA high-throughput sequence technology.",
+      "keywords": "poultry production, feed efficiency, abiotic stress, gut microbiota, metabarcoding",
+      "authors": {
+        "Alexandre Lecoeur": true,
+        "Maria Bernard": true,
+        "Sandrine Lagarrigue": true,
+        "Tatiana Zerjal": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_103",
+      "poster": "jobim2020_poster_103.pdf",
+      "thumbnail": "jobim2020_poster_103.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 104,
+      "title": "On the inference of complex phylogenetic networks by Markov Chain Monte-Carlo",
+      "keywords": "Phylogenetic network, Bayesian inference, Likelihood computation, Introgression, Hybridization",
+      "authors": {
+        "Charles-Elie Rabier": true,
+        "Vincent Berry": true,
+        "Jean-Christophe Glaszmann": true,
+        "Fabio Pardi": true,
+        "Celine Scornavacca": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_104",
+      "poster": "jobim2020_poster_104.pdf",
+      "thumbnail": "jobim2020_poster_104.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 105,
+      "title": "Shallow sequencing : a cost-effective and accurate alternative to WGS for taxonomic profiling ?",
+      "keywords": "metagenomic, microbiota, diagnosis",
+      "authors": {
+        "Benoit Goutorbe": true,
+        "Anne-Laure Abraham": true,
+        "Mahendra Mariadassou": true,
+        "Valentin Loux": true,
+        "Olivier Rué": true,
+        "Anne Plauzolles": true,
+        "Ghislain Bidaut": true,
+        "Philippe Halfon": true,
+        "Sophie Schbath": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_105",
+      "poster": "jobim2020_poster_105.pdf",
+      "thumbnail": "jobim2020_poster_105.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 106,
+      "title": "X!TandemPipeline new version brings native support of timsTOF raw data",
+      "keywords": "Proteomics, Mass spectrometry, timsTOF, Protein inference",
+      "authors": {
+        "Thomas Renne": true,
+        "Filippo Rusconi": true,
+        "Michel Zivy": true,
+        "Olivier Langella": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_106",
+      "poster": "jobim2020_poster_106.pdf",
+      "thumbnail": "jobim2020_poster_106.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 107,
+      "title": "Automatic annotation of ICE and IME with the ICEscreen tool",
+      "keywords": "Integrative Conjugative Element, ICE, Integrative Mobilizable Element, IME, Mobilome, Bacterial Genomics, Annotation",
+      "authors": {
+        "Julie Lao": true,
+        "Thomas Lacroix": true,
+        "Gérard Guédon": true,
+        "Nathalie Leblond-Bourget": true,
+        "Hélène Chiapello": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_107",
+      "poster": "jobim2020_poster_107.pdf",
+      "thumbnail": "jobim2020_poster_107.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 108,
+      "title": "Evaluation of tools and strategy for the assembly of an allopolyploid banana genome using nanopore technology",
+      "keywords": "Genome assembly, Oxford nanopore, Polyploidy, Banana",
+      "authors": {
+        "Anaïs Louis": true,
+        "Cédric Mariac": true,
+        "François Sabot": true,
+        "Mathieu Rouard": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_108",
+      "poster": "jobim2020_poster_108.pdf",
+      "thumbnail": "jobim2020_poster_108.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 109,
+      "title": "KmerTool, a new tool to quickly explore large RNA-Seq datasets",
+      "keywords": "k-mers, RNA-seq quantification, High scale analysis",
+      "authors": {
+        "Sébastien Riquier": true,
+        "Benoit Guibert": true,
+        "Chloé Bessiere": true,
+        "Thérèse Commes": true,
+        "Anne-Laure Bougé": true,
+        "Florence Rufflé": true,
+        "Anthony Boureux": true,
+        "Nicolas Gilbert": true,
+        "Daniel Gautheret": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_109",
+      "poster": "jobim2020_poster_109.pdf",
+      "thumbnail": "jobim2020_poster_109.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 111,
+      "title": "Single-cell multi-omics integration in early T-cell lineage specification",
+      "keywords": "single-cell, integration, multi-omics, t-cells, immunology",
+      "authors": {
+        "Claire Lansonneur": true,
+        "Denis Thieffry": true,
+        "Laura Cantini": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_111",
+      "poster": "jobim2020_poster_111.pdf",
+      "thumbnail": "jobim2020_poster_111.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 112,
+      "title": "The South Green Genome Hubs",
+      "keywords": "web portal, databases, genomes, OMICS, crop, CMS, analytical tools",
+      "authors": {
+        "Gaëtan Droc": true,
+        "Xavier Argout": true,
+        "Stéphanie Bocs": true,
+        "Aurore Comte": true,
+        "Alexis Dereeper": true,
+        "Jean-François Dufayard": true,
+        "Olivier Garsmeur": true,
+        "Anestis Gkanogiannis": true,
+        "Valentin Guignon": true,
+        "Chantal Hamelin": true,
+        "David Lopez": true,
+        "Nicolas Oubda": true,
+        "Guillaume Martin": true,
+        "Sébastien Ravel": true,
+        "Manuel Ruiz": true,
+        "Marilyne Summo": true,
+        "Coline Thomas": true,
+        "Christine Tranchant-Dubreuil": true,
+        "Mathieu Rouard": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_112",
+      "poster": "jobim2020_poster_112.pdf",
+      "thumbnail": "jobim2020_poster_112.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 113,
+      "title": "Proteomics guided detection of abnormal NGS genomes and proteomes",
+      "keywords": "Metaproteomics, Tandem mass spectrometry, Bioinformatic pipelines, Database quality, Signature",
+      "authors": {
+        "Karen Culotta": true,
+        "Virginie Jouffret": true,
+        "Jean Armengaud": true,
+        "Olivier Pible": true
+      },
+      "categories": {},
+      "room": "poster_113",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 114,
+      "title": "Large-scale transcriptomics to dissect two years of life of a fungal phytopathogen in interaction(s) with its host plant",
+      "keywords": "Phytopathogenic fungal, time-course transcriptomic data, virulence expression waves, epigenetic regulation",
+      "authors": {
+        "Elise Gay": true,
+        "Marie-Hélène Balesdent": true,
+        "Jessica L. Soyer": true,
+        "Nicolas Lapalu": true,
+        "Thierry Rouxel": true
+      },
+      "categories": {},
+      "room": "poster_114",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 115,
+      "title": "SysMics Integrative Research Cluster: Toward Systems Medicine based on Genomics",
+      "keywords": "genomics, bioinformatics, systems medicine, sequencing, whole genome, single cell, microbiota, metagenomics, epigenetics",
+      "authors": {
+        "Audrey Bihouée": true,
+        "Stéphanie Bonnaud": true,
+        "Jérémie Bourdon": true,
+        "Laurent David": true,
+        "Stéphane Minvielle": true,
+        "Michel Neunlist": true,
+        "Patricia Parnet": true,
+        "Pierre-Antoine Gourraud": true,
+        "Antoine Magnan": true,
+        "Françoise Le Vacon": true,
+        "Richard Redon": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_115",
+      "poster": "jobim2020_poster_115.pdf",
+      "thumbnail": "jobim2020_poster_115.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 116,
+      "title": "Functional networks of co-expressed genes to explore  iron homeostasis processes in the pathogenic yeast",
+      "keywords": "Functional genomics, Yeasts, Transcriptomics, Networks, Iron homeostasis",
+      "authors": {
+        "Thomas Denecker": true,
+        "Youfang Zhou Li": true,
+        "Cécile Fairhead": true,
+        "Karine Budin": true,
+        "Jean-Michel Camadro": true,
+        "Monique Bolotin-Fukuhara": true,
+        "Adela Angoulvant": true,
+        "Gaëlle Lelandais": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_116",
+      "poster": "jobim2020_poster_116.pdf",
+      "thumbnail": "jobim2020_poster_116.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 117,
+      "title": "Reconstruction and comparison of brown algal metabolic networks for identification of specific genes",
+      "keywords": "Metabolic networks, genome project, brown seaweeds",
+      "authors": {
+        "Alexandre Lambard": true,
+        "Jeanne Got": true,
+        "Anne Siegel": true,
+        "Gabriel Markov": true,
+        "Erwan Corre": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_117",
+      "poster": "jobim2020_poster_117.pdf",
+      "thumbnail": "jobim2020_poster_117.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 118,
+      "title": "Examples of bioanalysis activities on the ABiMS (Analysis and Bioinformatic for Marine Science) platform",
+      "keywords": "Metagenomes, MAGs, Genomes assembly, Long reads, HI-C",
+      "authors": {
+        "Nahéma Hecht": true,
+        "Thomas Enjalbert": true,
+        "Simon Dittami Dittami": true,
+        "Olivier Godfroy": true,
+        "Agnieska Lipinska": true,
+        "François Thomas": true,
+        "Erwan Corre": true
+      },
+      "categories": {},
+      "room": "poster_118",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 119,
+      "title": "Inferring ligand-receptor interactions from single-cell and bulk transcriptomic data",
+      "keywords": "",
+      "authors": {
+        "Simon Cabello-Aguilar": true,
+        "Melissa Alame": true,
+        "Jacques Colinge": true
+      },
+      "categories": {},
+      "room": "poster_119",
+      "poster": "jobim2020_poster_119.pdf",
+      "thumbnail": "jobim2020_poster_119.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 120,
+      "title": "Semi-automated noise removal tool for single-cell mass cytometry data",
+      "keywords": "mass cytometry, single cell, preprocessing",
+      "authors": {
+        "Maria-Fernanda Senosain": true,
+        "Pierre P. Massion": true
+      },
+      "categories": {},
+      "room": "poster_120",
+      "poster": "jobim2020_poster_120.pdf",
+      "thumbnail": "jobim2020_poster_120.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 123,
+      "title": "ToulligQC 2: a nicer and faster quality control software for Oxford Nanopore sequencing data",
+      "keywords": "QC tool, Oxford Nanopore Technologies, sequencing devices, analysis",
+      "authors": {
+        "Karine Dias": true,
+        "Laurent Jourdren": true,
+        "Corinne Blugeon": true,
+        "Charlotte Berthelier": true,
+        "Médine Benchouaia": true
+      },
+      "categories": {},
+      "room": "poster_123",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 125,
+      "title": "Axiomatization and Intgration of DESCRIPTION’s domaine in IMGT-ONTOLOGY : Construction of a Knowledge Graph in Immunogenetics",
+      "keywords": "immunogenetics, immunoinformatics, ontologies, knowledge graphs, machine learning",
+      "authors": {
+        "Gaoussou Sanou": true,
+        "Patrice Duroux": true,
+        "Véronique Giudicelli": true,
+        "Konstantin Todorov": true,
+        "Sofia Kossida": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_125",
+      "poster": "jobim2020_poster_125.pdf",
+      "thumbnail": "jobim2020_poster_125.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 126,
+      "title": "A Shiny application for RNA-seq data analysis and interpretation",
+      "keywords": "RNA-seq data analysis, Shiny application, User-friendly graphical interface",
+      "authors": {
+        "Justine Guégan": true,
+        "Beáta György": true,
+        "Mathilde Bertrand": true,
+        "Thomas Gareau": true,
+        "Ivan Moszer": true
+      },
+      "categories": {
+        "visualization": true
+      },
+      "room": "poster_126",
+      "poster": "jobim2020_poster_126.pdf",
+      "thumbnail": "jobim2020_poster_126.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 127,
+      "title": "From reads to chromosomes: What is the optimal path?",
+      "keywords": "de novo assembly, Oxford Nanopore, Pacific Bioscience, 10x Chromium, Hi-C, Bionano optical mapping, chromosome level assemblies",
+      "authors": {
+        "Andreea Dréau": true,
+        "Clément Birbes": true,
+        "Camille Eche": true,
+        "Carole Iampietro": true,
+        "Cécile Grohs": true,
+        "Didier Boichard": true,
+        "Cécile Donnadieu": true,
+        "Christine Gaspin": true,
+        "Denis Milan": true,
+        "Christophe Klopp": true,
+        "Matthias Zytnicki": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_127",
+      "poster": "jobim2020_poster_127.pdf",
+      "thumbnail": "jobim2020_poster_127.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 128,
+      "title": "Comparison of mean strains in metagenomic samples using variation graphs",
+      "keywords": "metagenomics, strains, variation graphs",
+      "authors": {
+        "Kévin Da Silva": true,
+        "Nicolas Pons": true,
+        "Magali Berland": true,
+        "Florian Plaza Oñate": true,
+        "Pierre Peterlongo": true
+      },
+      "categories": {},
+      "room": "poster_128",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 129,
+      "title": "Mobilome conservation among Drosophila paralogs",
+      "keywords": "Transposable elements, Drosophila, Evolution biology, Mobilome, Duplicated genes",
+      "authors": {
+        "Gabrielle Pozo": true,
+        "Carène Rizzon": true,
+        "Emmanuelle Lerat": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_129",
+      "poster": "jobim2020_poster_129.pdf",
+      "thumbnail": "jobim2020_poster_129.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 130,
+      "title": "Convergent stepwise recombination suppression in mating-type chromosomes of anther-smut fungi",
+      "keywords": "Comparative genomics, Evolution, Non-recombining regions, Microbotryum",
+      "authors": {
+        "Marine Duhamel": true,
+        "Ricardo C. Rodriguez de la Vega": true,
+        "Fantin Carpentier": true,
+        "Tatiana Giraud": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_130",
+      "poster": "jobim2020_poster_130.pdf",
+      "thumbnail": "jobim2020_poster_130.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 131,
+      "title": "Benchmarking of Minion long read assembly tools to produce a high-quality genome of ​Pseudogynoascus destructans​, a pathogen fungus with a high proportion of repetitive elements.",
+      "keywords": "Long-reads, Assembly, Repetitive elements, Pseudogymnoascus destructans",
+      "authors": {
+        "Matthieu Fournel​": true,
+        "Sèverine Bérard": true,
+        "Nicola Fischer": true,
+        "Marie-Ka Tilak": true,
+        "Anna-Sophie Fiston-Lavier​": true,
+        "Sébastien J Puechmaille​": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_131",
+      "poster": "jobim2020_poster_131.pdf",
+      "thumbnail": "jobim2020_poster_131.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 132,
+      "title": "Artificial intelligence approach for predicting variations in low-coverage NGS sequences",
+      "keywords": "artificial intelligence, pangenome, graph genome, graph variations, rice",
+      "authors": {
+        "Nguyet Dang": true,
+        "François Sabot": true
+      },
+      "categories": {},
+      "room": "poster_132",
+      "poster": "jobim2020_poster_132.pdf",
+      "thumbnail": "jobim2020_poster_132.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 133,
+      "title": "NG-AR2T, an epidemiological analysis pipeline for Neisseria gonorrhoeae sequenced isolates",
+      "keywords": "Neisseria gonorrhoeae, genomic analysis, epidemiological study, whole genome sequencing, antimicrobial resistance, phylogeny",
+      "authors": {
+        "Manel Merimeche": true,
+        "Thibaut Poncin": true,
+        "François Caméléna": true,
+        "Mary Mainardis": true,
+        "Aymeric Braille": true,
+        "Alban Lermine": true,
+        "Béatrice BerÇot": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_133",
+      "poster": "jobim2020_poster_133.pdf",
+      "thumbnail": "jobim2020_poster_133.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 134,
+      "title": "MTG-Link: filling gaps in draft genome assemblies with linked read data",
+      "keywords": "gap-filling, linked read data, MindTheGap, read subsampling, de Bruijn graph",
+      "authors": {
+        "Anne Guichard": true,
+        "Fabrice Legeai": true,
+        "Denis Tagu": true,
+        "Claire Lemaitre": true,
+        "Arthur Le Bars": true,
+        "Paul Yann Jay": true,
+        "Mathieu Joron": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_134",
+      "poster": "jobim2020_poster_134.pdf",
+      "thumbnail": "jobim2020_poster_134.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 136,
+      "title": "A Galaxy interface to facilitate multi-block analysis",
+      "keywords": "integrative biology, data integration, sparse PLS-DA, Galaxy interface",
+      "authors": {
+        "Pierre Pericard": true,
+        "Maxime Brunin": true,
+        "Guillemette Marot": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_136",
+      "poster": "jobim2020_poster_136.pdf",
+      "thumbnail": "jobim2020_poster_136.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 137,
+      "title": "Predicting transcription initiation at microsatellites using deep learning",
+      "keywords": "Transcription, Microsatellites, STR, Deep Learning, CNN, Convolution Neural Network",
+      "authors": {
+        "Mathys Grapotte": true,
+        "Chloé Bessiere": true,
+        "Manu Saraswat": true,
+        "Fantom Consortium": true,
+        "Laurent Bréhélin": true,
+        "Charles-Henri Lecellier": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_137",
+      "poster": "jobim2020_poster_137.pdf",
+      "thumbnail": "jobim2020_poster_137.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 140,
+      "title": "Gene expression predictions using deep learning approach",
+      "keywords": "deep learning, genomics, gene expression, canine model",
+      "authors": {
+        "Camille Kergal": true,
+        "Catherine André": true,
+        "Marie-Dominique Galibert": true,
+        "Thomas Derrien": true,
+        "Christophe Hitte": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_140",
+      "poster": "jobim2020_poster_140.pdf",
+      "thumbnail": "jobim2020_poster_140.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 141,
+      "title": "A bioinformatics pipeline for the characterization of small RNAs involved in the plant-root knot nematodes interaction.",
+      "keywords": "siRNAs, microRNAs, bioinformatic prediction, Small noncoding RNAs",
+      "authors": {
+        "Martine Da Rocha": true,
+        "Clemence Medina": true,
+        "Laetitia Perfus-Barbeoch": true,
+        "Bruno Favery": true,
+        "Stéphanie Jaubert-Possamai": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_141",
+      "poster": "jobim2020_poster_141.pdf",
+      "thumbnail": "jobim2020_poster_141.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 143,
+      "title": "Improving microbial taxonomic profiling with long read technologies",
+      "keywords": "taxonomic profiling, long read technologies, taxonomic resolution",
+      "authors": {
+        "Jean Mainguy": true,
+        "Adrien Castinel": true,
+        "Olivier Bouchez": true,
+        "Sylvie Combes": true,
+        "Carole Iampietro": true,
+        "Christine Gaspin": true,
+        "Denis Milan": true,
+        "Cécile Donnadieu": true,
+        "Claire Hoede": true,
+        "Géraldine Pascal": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_143",
+      "poster": "jobim2020_poster_143.pdf",
+      "thumbnail": "jobim2020_poster_143.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 144,
+      "title": "Evolution of ohnologous chromosomes following Whole Genome Duplication in apple",
+      "keywords": "Quantitative Trait Loci, Whole Genome Duplication, Synteny Blocks",
+      "authors": {
+        "Tanguy Lallemand": true,
+        "Sébastien Aubourg": true,
+        "Gilles Hunault": true,
+        "Jean-Marc Celton": true,
+        "Claudine Landès": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_144",
+      "poster": "jobim2020_poster_144.pdf",
+      "thumbnail": "jobim2020_poster_144.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 145,
+      "title": "Protein multiple alignments: sequence-based versus structure-based programs.",
+      "keywords": "Multiple Alignment Programs, Sequence Alignment, Structure Alignment",
+      "authors": {
+        "Mathilde Carpentier": true,
+        "Jacques Chomilier": true
+      },
+      "categories": {},
+      "room": "poster_145",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 147,
+      "title": "GeT, Sequencing Core Facility for all",
+      "keywords": "Sequencing, Genomics, Core facility, Traceability",
+      "authors": {
+        "Claire Kuchly": true,
+        "Cécile Donnadieu": true,
+        "Denis Milan": true,
+        "Marie-Ange Teste": true,
+        "Yannick Lippi": true,
+        "Frederic Martins": true,
+        "Emeline Lhuillier": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_147",
+      "poster": "jobim2020_poster_147.pdf",
+      "thumbnail": "jobim2020_poster_147.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 148,
+      "title": "Efficiency and strategies of model training to call methylation from Oxford Nanopore reads",
+      "keywords": "Oxford Nanopore Technologies, Epigenetics, Methylation calling, Model training",
+      "authors": {
+        "Paul Terzian": true,
+        "Rémy-Felix Serre": true,
+        "Clément Birbes": true,
+        "Christine Gaspin": true,
+        "Denis Milan": true,
+        "Cécile Donnadieu": true,
+        "Carole Iampietro": true,
+        "Christophe Klopp": true,
+        "Céline Vandecasteele": true
+      },
+      "categories": {},
+      "room": "poster_148",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 149,
+      "title": "Bacterial strains identification using Oxford Nanopore sequencing",
+      "keywords": "Bacterial strains identification, Bloom filter tree, Indel seeds, Long reads, MinION, Oxford Nanopore sequencing, Spaced seeds",
+      "authors": {
+        "Grégoire Siekaniec": true,
+        "Emeline Roux": true,
+        "Eric Guedon": true,
+        "Jacques Nicolas": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_149",
+      "poster": "jobim2020_poster_149.pdf",
+      "thumbnail": "jobim2020_poster_149.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 150,
+      "title": "GLeaves : Bringing clinical variant interpretation to genome scale",
+      "keywords": "Variant, Genomics, Interpretation, Clinical, PFMG2025, Software, Collaboration, Diagnosis, Rare diseases, Cancer",
+      "authors": {
+        "Nicolas Derive": true,
+        "Laurent Frobert": true,
+        "Mouahmadou Niang": true,
+        "Virginie Saillour": true,
+        "Mario Néou": true,
+        "Adrien Legendre": true,
+        "Vivien Deshaies": true,
+        "Camille Barette": true,
+        "Alban Lermine": true
+      },
+      "categories": {
+        "visualization": true
+      },
+      "room": "poster_150",
+      "poster": "jobim2020_poster_150.pdf",
+      "thumbnail": "jobim2020_poster_150.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 151,
+      "title": "CSTB : a web service to identify CRISPR sequences to differentially target bacteria",
+      "keywords": "web service, crispr, bacteria, differential targetting",
+      "authors": {
+        "Cécile Hilpert": true,
+        "Sophie Lematre": true,
+        "Audrey Reuter": true,
+        "Sarah Bigot": true,
+        "Christian Lesterlin": true,
+        "Guillaume Launay": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_151",
+      "poster": "jobim2020_poster_151.pdf",
+      "thumbnail": "jobim2020_poster_151.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 152,
+      "title": "Genome-Scale Metabolic Networks of Penicillium chrysogenum: evolution, combination and new reconstruction",
+      "keywords": "Genome-scale metabolic network (GSMN), Data integration, Penicillium chrysogenum",
+      "authors": {
+        "Delphine Nègre": true,
+        "Abdelhalim Larhlimi": true,
+        "Emmeline Watier": true,
+        "Jérémie Bourdon": true,
+        "Etienne Lorteau": true,
+        "Anne Siegel": true,
+        "Jacques Nicolas": true,
+        "Laurence Meslet-Cladiere": true,
+        "Catherine Roullier": true,
+        "Emmanuel Gentil": true,
+        "Nicolas Ruiz": true,
+        "Olivier Grovel": true,
+        "Yves-François Pouchus": true,
+        "Samuel Bertrand": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_152",
+      "poster": "jobim2020_poster_152.pdf",
+      "thumbnail": "jobim2020_poster_152.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 153,
+      "title": "Use of small RNA sequencing to shed light on host-parasite interactions during infection by the microsporidian Anncaliia algerae",
+      "keywords": "Anncaliia algerae, Host-parasite interactions, Microsporidia, Transcriptomics",
+      "authors": {
+        "Cédric Bicep": true,
+        "Ivan Wawrzyniak": true,
+        "Valérie Polonais": true,
+        "Fréderic Delbac": true,
+        "Jean-Melaine Sion": true,
+        "Éric Peyretaillade": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_153",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 155,
+      "title": "Facilitating the connection between local datasets and neXtProt with Semantic Web technologies and AskOmics",
+      "keywords": "Semantic Web, Federated query, neXtProt, User-friendly, Web software",
+      "authors": {
+        "Xavier Garnier": true,
+        "Anthony Bretaudeau": true,
+        "Alain Gateau": true,
+        "Lydie Lane": true,
+        "Fabrice Legeai": true,
+        "Pierre-André Michel": true,
+        "Anne Siegel": true,
+        "Olivier Dameron": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_155",
+      "poster": "jobim2020_poster_155.pdf",
+      "thumbnail": "jobim2020_poster_155.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 156,
+      "title": "Could genomic approach discriminate between Environmental and Pathogenic non-epidemic Vibrio cholerae?",
+      "keywords": "Phylogeny, Comparative genomics, Emergent pathogen, Foodborne pathogen",
+      "authors": {
+        "Slim El Khiari": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_156",
+      "poster": "jobim2020_poster_156.pdf",
+      "thumbnail": "jobim2020_poster_156.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 157,
+      "title": "Galaxy Genome Annotation implementation in the European Open Science Cloud",
+      "keywords": "EOSC Life, Galaxy Genome Annotation, Workflow",
+      "authors": {
+        "Romain Dallet": true,
+        "Loraine Brillet-Guéguen": true,
+        "Gildas L​e​ C​orguillé": true,
+        "Gianluca De Moro": true,
+        "Cymon J. Cox": true,
+        "Erwan Corre": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_157",
+      "poster": "jobim2020_poster_157.pdf",
+      "thumbnail": "jobim2020_poster_157.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 158,
+      "title": "An integrative pipeline for region-based rare variant association studies : quality control, qualifying variant selection and association tests",
+      "keywords": "Region-based association test, Rare variant, Sequencing data quality control, Multiple-category phenotypes.",
+      "authors": {
+        "Gaelle Marenne": true,
+        "Thomas Ludwig": true,
+        "Ozvan Bocher": true,
+        "Emmanuelle Génin": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_158",
+      "poster": "jobim2020_poster_158.pdf",
+      "thumbnail": "jobim2020_poster_158.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 160,
+      "title": "Deployment of Genome Databases for Brown Algae Using Galaxy Genome Annotation",
+      "keywords": "brown algae, genomic and transcriptomic data, Galaxy Genome Annotation, web portal, GMOD suite, Galaxy, Docker",
+      "authors": {
+        "Loraine Brillet-Guéguen": true,
+        "Arthur Le Bars": true,
+        "Delphine Nègre": true,
+        "Anthony Bretaudeau": true,
+        "J. Mark Cock": true,
+        "Susana M. Coelho": true,
+        "Erwan Corre": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_160",
+      "poster": "jobim2020_poster_160.pdf",
+      "thumbnail": "jobim2020_poster_160.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 161,
+      "title": "Plasma: e-learning platform for massive data analysis",
+      "keywords": "Jupyter, notebook, data analysis, genomics, teaching, e-learning, active learning",
+      "authors": {
+        "Jérémy Tuloup": true,
+        "Claire Vandiedonck": true,
+        "Pierre Poulain": true,
+        "Sandrine Caburet": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_161",
+      "poster": "jobim2020_poster_161.pdf",
+      "thumbnail": "jobim2020_poster_161.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 162,
+      "title": "Systems Immunology approach using tranSMART: challenges and solutions in integrating new type of data",
+      "keywords": "system immunology, database, data integration",
+      "authors": {
+        "Aurelien Beliard": true,
+        "Encarnita Mariotti-Ferrandiz": true
+      },
+      "categories": {},
+      "room": "poster_162",
+      "poster": "jobim2020_poster_162.pdf",
+      "thumbnail": "jobim2020_poster_162.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 163,
+      "title": "What are the functions of upstream open reading frames (uORFs) in dendritic cells?",
+      "keywords": "upstream open reading frame (uORFs), protein-protein interaction (PPI) network, network inference, sORF-encoded polypeptides (sPEPs), translation, dendritic cells (DCs)",
+      "authors": {
+        "Sébastien A. Choteau": true,
+        "Audrey Wagner": true,
+        "Andreas Zanzoni": true,
+        "Lionel Spinelli": true,
+        "Philippe Pierre": true,
+        "Christine Brun": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_163",
+      "poster": "jobim2020_poster_163.pdf",
+      "thumbnail": "jobim2020_poster_163.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 164,
+      "title": "Long-term dynamics of protist paleocommunities in a coastal marine ecosystem (Bay of Brest, NW France) revealed by DNA metabarcoding",
+      "keywords": "Ancient DNA, Metabarcoding, Protist, NGS, Amplicon Sequence Variant, Paleoecology",
+      "authors": {
+        "Pierre Cuzin": true,
+        "Malwenn Lassudrie Duchesne": true,
+        "Laure Quintric": true,
+        "Cyril Noël": true,
+        "Patrick Durand": true,
+        "Raffaele Siano": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_164",
+      "poster": "jobim2020_poster_164.pdf",
+      "thumbnail": "jobim2020_poster_164.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 166,
+      "title": "Extraction of association implication rules from knowledge on plants with pesticidal and antibiotic effect classified by FCA within the One-Health initiative",
+      "keywords": "One-Health initiative, association implication rules, FCA, plants with pesticidal and antibiotic effect",
+      "authors": {
+        "Lina Mahrach": true,
+        "Alain Gutierrez": true,
+        "Marianne Huchard": true,
+        "Priscilla Keip": true,
+        "Pierre Silvie": true,
+        "Pierre Martin": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_166",
+      "poster": "jobim2020_poster_166.pdf",
+      "thumbnail": "jobim2020_poster_166.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 167,
+      "title": "CD-hit-medoid: Optimization of a nucleotide sequence-clustering tool",
+      "keywords": "cd-hit-est, catalog of genes, representative, redundancy, iteration, medoid",
+      "authors": {
+        "Oscar Gitton-Quent": true,
+        "Florian Plaza Oñate": true,
+        "Emmanuelle Le Chatelier": true,
+        "Nicolas Pons": true,
+        "Mathieu Almeida": true
+      },
+      "categories": {},
+      "room": "poster_167",
+      "poster": "jobim2020_poster_167.pdf",
+      "thumbnail": "jobim2020_poster_167.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 168,
+      "title": "South Green Bioinformatic Resources For Tropical and Mediterranean Crops",
+      "keywords": "Databases, Workflows, Plants, Platform",
+      "authors": {
+        "Mathieu Rouard": true,
+        "Stéphanie Bocs": true,
+        "Catherine Breton": true,
+        "Aurore Comte": true,
+        "Fredéric De Lamotte": true,
+        "Alexis Dereeper": true,
+        "Gaëtan Droc": true,
+        "Jean-François Dufayard": true,
+        "Valentin Guignon": true,
+        "Chantal Hamelin": true,
+        "Pierre Larmande": true,
+        "David Lopez": true,
+        "Frédéric Mahe": true,
+        "Guillaume Martin": true,
+        "Julie Orjuela-Bouniol": true,
+        "Bertrand Pitollat": true,
+        "Sébastien Ravel": true,
+        "Manuel Ruiz": true,
+        "François Sabot": true,
+        "Gautier Sarah": true,
+        "Guilhem Sempere": true,
+        "Marilyne Summo": true,
+        "Ndomassi Tando": true,
+        "Christine Tranchant-Dubreuil": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_168",
+      "poster": "jobim2020_poster_168.pdf",
+      "thumbnail": "jobim2020_poster_168.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 171,
+      "title": "A comparison of different approaches to estimate disease similarities",
+      "keywords": "Disease similarities, Benchmarking, Correlations and clustering",
+      "authors": {
+        "Maxime Delmas": true,
+        "Clément Frainay": true,
+        "Fabien Jourdan": true,
+        "Yoann Pitarch": true
+      },
+      "categories": {},
+      "room": "poster_171",
+      "poster": "jobim2020_poster_171.pdf",
+      "thumbnail": "jobim2020_poster_171.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 173,
+      "title": "Manual curation and annotation transfer between genomes of LRR-containing genes",
+      "keywords": "LRR-containing genes, gene annotation, Oryza",
+      "authors": {
+        "Céline Gottin": true,
+        "Anne Dievart": true,
+        "Nathalie Chantret": true,
+        "Vincent Ranwez": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_173",
+      "poster": "jobim2020_poster_173.pdf",
+      "thumbnail": "jobim2020_poster_173.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 174,
+      "title": "Hybrid de novo genome assembly using Oxford Nanopore Technology, 10X Genomics Linked-Reads sequencing, and Bionano optical map of a non-model species: the case of the melon-cotton aphid Aphis gossypii",
+      "keywords": "aphids, NGS, Long reads sequencing, Oxford Nanopore Technology, Optical Map, Linked-reads, 10X-Genomics, de novo hybrid assembly, HPC",
+      "authors": {
+        "Jacques Lagnel": true,
+        "Rafael Feriche-Linares": true,
+        "Pierre Bertrand": true,
+        "William Marande": true,
+        "Anne Loiseau": true,
+        "Amalia Sayeh": true,
+        "Maxime Manno": true,
+        "Nathalie Boissot": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_174",
+      "poster": "jobim2020_poster_174.pdf",
+      "thumbnail": "jobim2020_poster_174.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 175,
+      "title": "ELTerm: a terminology module for a plant data management system",
+      "keywords": "Data management system, Terminology, Ontology, Plant biology",
+      "authors": {
+        "Hauguel Lysiane": true,
+        "Tanguy Lallemand": true,
+        "Rayan Eid": true,
+        "Fabrice Dupuis": true,
+        "Sylvain Gaillard": true,
+        "Florian Blessing": true,
+        "Sandra Pelletier": true,
+        "Julie Bourbeillon": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_175",
+      "poster": "jobim2020_poster_175.pdf",
+      "thumbnail": "jobim2020_poster_175.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 176,
+      "title": "My RNA-tailor is rich : fine modeling of alternative transcripts from long reads ",
+      "keywords": "long reads, transcriptome, workflow",
+      "authors": {
+        "Cyprien Boree": true,
+        "Aymeric Antoine-Lorquin": true,
+        "Jean-Stéphane Varré": true,
+        "Hélène Touzet": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_176",
+      "poster": "jobim2020_poster_176.pdf",
+      "thumbnail": "jobim2020_poster_176.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 177,
+      "title": "Cross-species single cell RNA-seq data integration to unravel the cells of origin of ATRT",
+      "keywords": "rhabdoid tumors, ATRT, single cell RNA-seq, enrichment analysis, deconvolution, cells of origin",
+      "authors": {
+        "Mamy Andrianteranagna": true,
+        "Maria-Jesus Lobon Iglesias": true,
+        "Zhi-Yan Han": true,
+        "Mandy Cadix": true,
+        "Julien Masliah-Planchon": true,
+        "Pierre Gestraud": true,
+        "Nicolas Servant": true,
+        "Franck Bourdeaut": true
+      },
+      "categories": {},
+      "room": "poster_177",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 178,
+      "title": "A user-friendly R-Shiny interface for accurate viral and bacterial typing without alignment or assembly",
+      "keywords": "viral and bacterial typing, phylogenetic tree, pathogens, pipeline, R-shiny application",
+      "authors": {
+        "Morgane Bruno": true,
+        "Lionel Bigault": true,
+        "Maud Contrant": true,
+        "Fabrice Touzain": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_178",
+      "poster": "jobim2020_poster_178.pdf",
+      "thumbnail": "jobim2020_poster_178.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 179,
+      "title": "CulebrONT, a snakemake pipeline to benchmark Oxford Nanopore Technologies assemblies and to improve quality control",
+      "keywords": "assembly, correction, polishing, nanopore, minion, quality, snakemake pipeline",
+      "authors": {
+        "Julie Orjuela-Bouniol": true,
+        "Aurore Comte": true,
+        "Sébastien Ravel": true,
+        "Florian Charriat": true,
+        "Bao Tram Vi": true,
+        "François Sabot": true,
+        "Sebastien Cunnac": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_179",
+      "poster": "jobim2020_poster_179.pdf",
+      "thumbnail": "jobim2020_poster_179.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 181,
+      "title": "Benchmark of multiple sequence alignment methods applied on third-generation sequencing",
+      "keywords": "long reads, correction, benchmark",
+      "authors": {
+        "Coralie Rohmer": true,
+        "Antoine Limasset": true,
+        "Hélène Touzet": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_181",
+      "poster": "jobim2020_poster_181.pdf",
+      "thumbnail": "jobim2020_poster_181.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 182,
+      "title": "Improving scRNA-seq analysis in poorly-annotated genomes with matching long-read transcriptome",
+      "keywords": "single-cell RNA-seq, long-reads RNA-seq, de novo annotation, neural progenitors",
+      "authors": {
+        "Nathalie Lehmann": true,
+        "Rosette Goïame": true,
+        "Médine Benchouaia": true,
+        "Kamal Bouhali": true,
+        "Baptiste Mida": true,
+        "Denis Thieffry": true,
+        "Xavier Morin": true,
+        "Evelyne Fischer": true,
+        "Morgane Thomas-Chollier": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_182",
+      "poster": "jobim2020_poster_182.pdf",
+      "thumbnail": "jobim2020_poster_182.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 183,
+      "title": "Comparative transcriptomics upon shutdown of a major player in human epitranscriptome regulation",
+      "keywords": "Epitranscriptome, RNA, methylation, translation, FTO, Téléchargements",
+      "authors": {
+        "Julie Ripoll": true,
+        "Sebastien Relier": true,
+        "Amandine Bastide": true,
+        "Alexandre David": true,
+        "Eric Rivals": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_183",
+      "poster": "jobim2020_poster_183.pdf",
+      "thumbnail": "jobim2020_poster_183.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 184,
+      "title": "Epigenetics regulation of hematopoietic lineage plasticity and early programming of metabolic diseases",
+      "keywords": "Epigenetics, Single-Cell Analysis, Multi-Omics Data Integration, Fetal Programming, Metabolic diseases, Hematopoietic Lineage, Stem Cells Fate Decision",
+      "authors": {
+        "Alexandre Pelletier": true,
+        "Fabien Delahaye": true,
+        "Philippe Froguel": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_184",
+      "poster": "jobim2020_poster_184.pdf",
+      "thumbnail": "jobim2020_poster_184.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 185,
+      "title": "RF4SV: A Random Forest approach for accurate deletion detection",
+      "keywords": "Structural variant, Deletion, Random Forest, NGS",
+      "authors": {
+        "Emira Cherif": true,
+        "Roberto Xavier": true,
+        "Anna-Sophie Fiston-Lavier": true,
+        "Ronnie C.O. Alves": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_185",
+      "poster": "jobim2020_poster_185.pdf",
+      "thumbnail": "jobim2020_poster_185.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 187,
+      "title": "ISSI : IRCAN's Satellite Signature Project",
+      "keywords": "repeats, pipeline, sequencing, signature, database",
+      "authors": {
+        "Joris Argentin": true,
+        "Olivier Croce": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_187",
+      "poster": "jobim2020_poster_187.pdf",
+      "thumbnail": "jobim2020_poster_187.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 188,
+      "title": "Development of a Snakemake “framework/templates” to study the whole-genome transcriptional profiling from a blood-flesh trait (bf) and non blood-flesh trait (non-bf) cultivars in Prunus persica",
+      "keywords": "RNAseq, Workflow manager, SnakeMake, Container, Singularity, reproducibility, Prunus persica, HPC",
+      "authors": {
+        "Laure Heurtevin": true,
+        "Thierry Pascal": true,
+        "Bénédicte Quilot-Turion": true,
+        "Marie Laure Martin-Magniette": true,
+        "Jacques Lagnel": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_188",
+      "poster": "jobim2020_poster_188.pdf",
+      "thumbnail": "jobim2020_poster_188.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 189,
+      "title": "DECONbench: a benchmarking platform dedicated to deconvolution methods for tumor heterogeneity quantification",
+      "keywords": "Benchmark, Platform, Deconvolution, Heterogeneity, Cancer",
+      "authors": {
+        "Clémentine Decamps": true,
+        "Alexis Arnaud": true,
+        "Florent Petitprez": true,
+        "Mira Ayadi": true,
+        "Aurélia Baurès": true,
+        "Lucile Armenoult": true,
+        "Remy Nicolle": true,
+        "Richard Tomasini": true,
+        "Aurélien de Reyniès": true,
+        "Jérôme Cros": true,
+        "Yuna Blum": true,
+        "Magali Richard": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_189",
+      "poster": "jobim2020_poster_189.pdf",
+      "thumbnail": "jobim2020_poster_189.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 190,
+      "title": "A bioinformatics pipeline for urgent detection and characterization of emergent viral pathogens",
+      "keywords": "bioinformatics pipeline, real time sequencing, outbreak investigation",
+      "authors": {
+        "Véronique Hourdel": true,
+        "Aurelia Kwasiborski": true,
+        "Charlotte Balière": true,
+        "Severine Matheus": true,
+        "Jean-Claude Manuguerra": true,
+        "Jessica Vanhomwegen": true,
+        "Valérie Caro": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_190",
+      "poster": "jobim2020_poster_190.pdf",
+      "thumbnail": "jobim2020_poster_190.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 191,
+      "title": "Evaluation of double digest Restriction-site Associated DNA Sequencing (ddRAD-Seq) on a prokaryotic pathogen",
+      "keywords": "Bacterial pathogen, Bioinformatics, ddRAD-Seq",
+      "authors": {
+        "Charlotte Couchoud": true,
+        "Julien Almarcha": true,
+        "Didier Hocquet": true,
+        "Benoit Valot": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_191",
+      "poster": "jobim2020_poster_191.pdf",
+      "thumbnail": "jobim2020_poster_191.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 192,
+      "title": "A rare variant burden test based on population frequencies for case-only rare disease study designs",
+      "keywords": "Bioinformatics, Burden test, Biostatistics, Genomics, Clinical genetics",
+      "authors": {
+        "Antoine Favier": true,
+        "Antonio Rausell": true,
+        "Stefania Chounta": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_192",
+      "poster": "jobim2020_poster_192.pdf",
+      "thumbnail": "jobim2020_poster_192.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 195,
+      "title": "aiMeRA: A generic modular response analysis R package and its application to estrogen and retinoic acid receptors crosstalk",
+      "keywords": "Systems biology, Bilogical networks modeling, Modular Response Analysis, R package, Bioinformatics, Mathematics",
+      "authors": {
+        "Gabriel Jimenez-Dominguez": true,
+        "Patrice Ravel": true,
+        "Stéphan Jalaguier": true,
+        "Vincent Cavaillès": true,
+        "Jacques Colinge": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_195",
+      "poster": "jobim2020_poster_195.pdf",
+      "thumbnail": "jobim2020_poster_195.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 196,
+      "title": "Going beyond taxonomic assessment with metabarcoding:  the integration of data and tools to explore multiple biodiversity attributes",
+      "keywords": "dna metabarcoding, biodiversity databases, functional diversity, phylogenetic diversity, taxonomic diversity, pipeline",
+      "authors": {
+        "Anais Rey": true,
+        "Frédérique Viard": true,
+        "Erwan Corre": true,
+        "Pierre Thiriet": true
+      },
+      "categories": {},
+      "room": "poster_196",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 197,
+      "title": "BiokoP: Bi-objective programming for RNA secondary structure prediction with pseudoknots",
+      "keywords": "RNA secondary structure prediction, Pseudoknot, Sub-optimal solutions, Multi-objectif algorithm, Integer programming",
+      "authors": {
+        "Audrey Legendre": true,
+        "Eric Angel": true,
+        "Fariza Tahi": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_197",
+      "poster": "jobim2020_poster_197.pdf",
+      "thumbnail": "jobim2020_poster_197.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 198,
+      "title": "International Society for Computational Biology Student Council Regional Student Group France (RSG France) : Association of Young Bioinformaticians of France (JeBiF)",
+      "keywords": "RSG France - JeBIF, ISCB Student Council, Community, Activities",
+      "authors": {
+        "Florence Jornod": true,
+        "Slim El Khiari": true,
+        "Xavier Bussell": true,
+        "Julien Fumey": true,
+        "Mathias Galati": true,
+        "Athénaïs Vaginay": true,
+        "Victor Grentzinger": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_198",
+      "poster": "jobim2020_poster_198.pdf",
+      "thumbnail": "jobim2020_poster_198.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 199,
+      "title": "IRSOM, a reliable identifier of ncRNAs based on supervised self-organizing maps with rejection",
+      "keywords": "Non-coding RNA prediction, Machine learning, Self-Organizing Maps (SOM)",
+      "authors": {
+        "Ludovic Platon": true,
+        "Farida Zehraoui": true,
+        "Fariza Tahi": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_199",
+      "poster": "jobim2020_poster_199.pdf",
+      "thumbnail": "jobim2020_poster_199.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 200,
+      "title": "How to explain bioinformatics to non scientists? Feedback from the experience of RSG France - JeBiF",
+      "keywords": "Vulgarisation, Fête de la Science, Pint of Science, Explaining science to the public",
+      "authors": {
+        "Slim El Khiari": true,
+        "Xavier Bussell": true,
+        "Stéphanie Chevalier": true,
+        "Julien Fumey": true,
+        "Fabien Genty": true,
+        "Victor Grentzinger": true,
+        "Julie Lao": true,
+        "Marylène Rugard": true,
+        "Athénaïs Vaginay": true,
+        "Amaury Vaysse": true,
+        "Florence Jornod": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_200",
+      "poster": "jobim2020_poster_200.pdf",
+      "thumbnail": "jobim2020_poster_200.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 201,
+      "title": "Transcriptome Profile of Multiple Sclerosis Patients Treated with Natalizumab: Prediction of Response",
+      "keywords": "Multiple Sclerosis, Natalizumab, Transcriptomics, Machine Learning",
+      "authors": {
+        "Leila Khajavi": true,
+        "Matthias Zytnicki": true,
+        "Roland Liblau": true
+      },
+      "categories": {},
+      "room": "poster_201",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 202,
+      "title": "Efficiency of gene regulatory network inference methods on genomic and transcriptomic data",
+      "keywords": "gene regulatory network, inference method, meta-analysis, transcriptome, polymorphism",
+      "authors": {
+        "Lise Pomiès": true,
+        "Céline Brouard": true,
+        "Harold Duruflé": true,
+        "Nicolas Langlade": true,
+        "Simon de Givry": true
+      },
+      "categories": {},
+      "room": "poster_202",
+      "poster": "jobim2020_poster_202.pdf",
+      "thumbnail": "jobim2020_poster_202.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 203,
+      "title": "Epigenetic Regulations of Inflammation in Cardiovascular Complications of Type 2 Diabetes",
+      "keywords": "Enhancer regions, genetic variations, inflammation, Type 2 diabetes, cardiovascular risk",
+      "authors": {
+        "Diane Girard": true,
+        "Elena Carcarino": true,
+        "Jean-Baptiste Julla": true,
+        "Louis Potier": true,
+        "Marc Diedisheim": true,
+        "Jean-François Gauthier": true,
+        "Ronan Roussel": true,
+        "Nicolas Venteclef": true,
+        "Claire Vandiedonck": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_203",
+      "poster": "jobim2020_poster_203.pdf",
+      "thumbnail": "jobim2020_poster_203.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 204,
+      "title": "A method to classify α-satellites and other short sequences",
+      "keywords": "DBSCAN, clustering, alpha-satellites, tandem-repeats, phylogeny",
+      "authors": {
+        "Thomas Haschka": true,
+        "Loïc Ponger": true,
+        "Julien Mozziconacci": true,
+        "Christophe Escude": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_204",
+      "poster": "jobim2020_poster_204.pdf",
+      "thumbnail": "jobim2020_poster_204.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 205,
+      "title": "Identifying novel sequence elements involved in transcription initiation in human genome",
+      "keywords": "transcription initiation, CAGE, FANTOM, human genome, machine learning",
+      "authors": {
+        "Yulia Rodina": true,
+        "Christophe Menichelli": true,
+        "Sophie Lèbre": true,
+        "Laurent Bréhélin": true,
+        "Charles-Henri Lecellier": true
+      },
+      "categories": {
+        "functional genomics": true
+      },
+      "room": "poster_205",
+      "poster": "jobim2020_poster_205.pdf",
+      "thumbnail": "jobim2020_poster_205.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 207,
+      "title": "Investigating DNA methylation in IDH mutant acute myeloid leukemia",
+      "keywords": "AML, Methylation, IDH, OXPHOS",
+      "authors": {
+        "Alexis Hucteau": true,
+        "Lucille Stuani": true,
+        "Ting Xie": true,
+        "Tony Kaoma": true,
+        "Jean Emmanuel Sarry": true,
+        "Vera Pancaldi": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_207",
+      "poster": "jobim2020_poster_207.pdf",
+      "thumbnail": "jobim2020_poster_207.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 209,
+      "title": "A repertoire of Escherichia coli K12 regulatory binding motifs",
+      "keywords": "ChIP-seq, transcription factor binding motif, Escherichia coli K12",
+      "authors": {
+        "Claire Rioualen": true,
+        "Jacques van Helden": true,
+        "Julio Collado Vides": true
+      },
+      "categories": {},
+      "room": "poster_209",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 210,
+      "title": "Investigating the taxonomic and functional diversity of benthic archaeal communities from two South Pacific hadal trenches using high-throughput sequencing data",
+      "keywords": "Metagenomics, Microbial ecology, Archaeal diversity, Functional diversity, Hadal trenches",
+      "authors": {
+        "Blandine Trouche": true,
+        "Feriel Bouderka": true,
+        "Clemens Schauberger": true,
+        "Julie Poulain": true,
+        "Patrick Wincker": true,
+        "Bo Thamdrup": true,
+        "Ronnie N Glud": true,
+        "Sophie Arnaud-Haond": true,
+        "Loïs Maignien": true
+      },
+      "categories": {
+        "metagenomics": true
+      },
+      "room": "poster_210",
+      "poster": "jobim2020_poster_210.pdf",
+      "thumbnail": "jobim2020_poster_210.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 211,
+      "title": "SNPer, a home made interrogation tool for variants and their effect throughout the genome",
+      "keywords": "SNP, interrogation, genome, web",
+      "authors": {
+        "Frédérique Bitton": true
+      },
+      "categories": {},
+      "room": "poster_211",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 212,
+      "title": "Variability in healthy human cytokine responses",
+      "keywords": "data integration, linear models, cohort study, immune response",
+      "authors": {
+        "Violaine Saint-André": true,
+        "Bruno Charbit": true,
+        "Anne Biton": true,
+        "Vincent Rouilly": true,
+        "Maxime Rotival": true,
+        "Jakob Bergstedt": true,
+        "Etienne Patin": true,
+        "Mathew Albert": true,
+        "Lluis Quintana-Murci": true,
+        "Darragh Duffy": true
+      },
+      "categories": {
+        "system": true
+      },
+      "room": "poster_212",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 213,
+      "title": "FAIR_bioinfo : a software perspective of reproducibility of bioinformatics analyses",
+      "keywords": "reproducibility, training, data processing",
+      "authors": {
+        "Thomas Denecker": true,
+        "Céline Hernandez": true,
+        "Claire Toffano-Nioche": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_213",
+      "poster": "jobim2020_poster_213.pdf",
+      "thumbnail": "jobim2020_poster_213.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 214,
+      "title": "Feature selection and automatic machine learning identifies translationally regulated mRNAs by the mTOR pathway.",
+      "keywords": "Polysome profile, Tranlatome analysis, Clustering, Machine learning",
+      "authors": {
+        "Costas Bouyioukos": true,
+        "Manuel Bulfoni": true,
+        "Bertrand Cosson": true
+      },
+      "categories": {},
+      "room": "poster_214",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 215,
+      "title": "Genomic SNP detection by RNA-seq: lessons from multi-tissue & multi-population data analysis in chickens.",
+      "keywords": "RNA-seq, DNA-seq, SNP detection, chicken application",
+      "authors": {
+        "F Jehl": true,
+        "M Bernard": true,
+        "F Degalez": true,
+        "F Lecerf": true,
+        "M Coulee": true,
+        "T Zerjal": true,
+        "F Pitel": true,
+        "C Klopp": true,
+        "S Lagarrigue": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_215",
+      "poster": "jobim2020_poster_215.pdf",
+      "thumbnail": "jobim2020_poster_215.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 216,
+      "title": "Towards CNNs Representations for Small Data Classification",
+      "keywords": "",
+      "authors": {
+        "Khawla Seddiki": true,
+        "Philippe Saudemont": true,
+        "Frédéric Precioso": true,
+        "Nina Ogrinc": true,
+        "Maxence Wisztorski": true,
+        "Michel Salzet": true,
+        "Isabelle Fournier": true,
+        "Arnaud Droit": true
+      },
+      "categories": {},
+      "room": "poster_216",
+      "poster": "jobim2020_poster_216.pdf",
+      "thumbnail": "jobim2020_poster_216.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 217,
+      "title": "Using Neural Networks to Identify Biologically Relevant Features and Predict Cancer Types From Mass Spectrometry Data",
+      "keywords": "CNN, Interpretation, Mass Spectrometry, 1D",
+      "authors": {
+        "Khawla Seddiki": true,
+        "Frédéric Precioso": true,
+        "Philippe Saudemont": true,
+        "Nina Ogrinc": true,
+        "Maxence Wisztorski": true,
+        "Michel Salzet": true,
+        "Isabelle Fournier": true,
+        "Arnaud Droit": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_217",
+      "poster": "jobim2020_poster_217.pdf",
+      "thumbnail": "jobim2020_poster_217.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 218,
+      "title": "Impact of Cultural transmission of reproductive success on genetic diversity",
+      "keywords": "genetic diversity, reproductive success, coalescent trees, recombination, human population genetics",
+      "authors": {
+        "Jeremy Guez": true,
+        "Romain Laurent": true,
+        "Bruno Toupance": true,
+        "Evelyne Heyer": true,
+        "Frederic Austerlitz": true,
+        "Flora Jay": true
+      },
+      "categories": {
+        "evolution": true
+      },
+      "room": "poster_218",
+      "poster": "jobim2020_poster_218.pdf",
+      "thumbnail": "jobim2020_poster_218.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 220,
+      "title": "StatABio Facility: your user-friendly statistics",
+      "keywords": "biostatistics, service, interaction, methods, user friendly",
+      "authors": {
+        "Manuela Pastore": true,
+        "Emeric Dubois": true,
+        "Christelle Reynes": true
+      },
+      "categories": {
+        "stat": true
+      },
+      "room": "poster_220",
+      "poster": "jobim2020_poster_220.pdf",
+      "thumbnail": "jobim2020_poster_220.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 221,
+      "title": "How to choose a reference genome (while waiting for a pangenome)",
+      "keywords": "Reference genome, Pangenome, Sequencing technologies, Anopheles gambiae, Oryza glaberrima",
+      "authors": {
+        "Clothilde Chenal": true,
+        "Christine Tranchant-Dubreuil": true,
+        "Anna-Sophie Fiston-Lavier": true,
+        "Frédéric Simard": true,
+        "Yves Vigouroux": true,
+        "Michael Fontaine": true,
+        "François Sabot": true,
+        "The Anopheles Gambiae Consortium": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_221",
+      "poster": "jobim2020_poster_221.pdf",
+      "thumbnail": "jobim2020_poster_221.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 222,
+      "title": "The Pole for data analysis of the Muséum National d’Histoire Naturelle",
+      "keywords": "Data analysis, Statistical processing, Genes & Genomes",
+      "authors": {
+        "Jawad Abdelkrim": true,
+        "Fayçal Allouti": true,
+        "Amandine Blin": true,
+        "Claire Gachon": true,
+        "Julien Mozziconacci": true,
+        "Nicholas Toda": true,
+        "Patricia Wils": true,
+        "Anthony Woo": true
+      },
+      "categories": {},
+      "room": "poster_222",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 223,
+      "title": "Pilot study to screen alleles under selection related to drought tolerance in banana",
+      "keywords": "NGS, drough, allelic dosage, RNAseq, Ka/Ks",
+      "authors": {
+        "Catherine Breton": true,
+        "Alberto Cenci": true,
+        "Nicolas Roux": true,
+        "Mathieu Rouard": true,
+        "Sebastien Carpentier": true
+      },
+      "categories": {
+        "NGS": true
+      },
+      "room": "poster_223",
+      "poster": "jobim2020_poster_223.pdf",
+      "thumbnail": "jobim2020_poster_223.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 224,
+      "title": "OMICSity, a database for Luminex immunoassay data storage and analysis",
+      "keywords": "Luminex, Database, Proteomic, Biomarker, Windev",
+      "authors": {
+        "Corinne Menigot": true,
+        "Luigi Russo": true,
+        "Didier Zugaj": true,
+        "Nicolas Nottet": true,
+        "Romy Rambert": true,
+        "Bruno Mehul": true,
+        "Francesca Zolezzi": true,
+        "Agnes Paquet": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_224",
+      "poster": "jobim2020_poster_224.pdf",
+      "thumbnail": "jobim2020_poster_224.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 225,
+      "title": "Génération de workflow d’analyse conteneurisé avec interface graphique",
+      "keywords": "workflow, automatic generation, graphical user interface, container",
+      "authors": {
+        "Mathieu Massaviol": true,
+        "Jimmy Lopez": true,
+        "Remy Dernat": true,
+        "Khalid Belkhir": true
+      },
+      "categories": {
+        "FAIR": true
+      },
+      "room": "poster_225",
+      "poster": "jobim2020_poster_225.pdf",
+      "thumbnail": "jobim2020_poster_225.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 229,
+      "title": "Mechanical stress induces activation of the angiotensin II receptor AT2: a molecular dynamic approach",
+      "keywords": "AT2R, molecular dynamic simulations, mechanical stress",
+      "authors": {
+        "Rym Ben Boubaker": true,
+        "Asma Tiss": true,
+        "Daniel Henrion": true,
+        "Marie Chabbert": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_229",
+      "poster": "jobim2020_poster_229.pdf",
+      "thumbnail": "jobim2020_poster_229.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 230,
+      "title": "Molecular mechanisms of the sodium ion binding to G protein coupled receptors",
+      "keywords": "sodium ion, allosteric site, GPCRs",
+      "authors": {
+        "Asma Tiss": true,
+        "Rym Ben Boubaker": true,
+        "Linda Grimaud": true,
+        "Daniel Henrion": true,
+        "Hajer Guissouma": true,
+        "Marie Chabbert": true
+      },
+      "categories": {
+        "structure": true
+      },
+      "room": "poster_230",
+      "poster": "jobim2020_poster_230.pdf",
+      "thumbnail": "jobim2020_poster_230.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 232,
+      "title": "mésocentre Meso@LR",
+      "keywords": "High Performance Computing, Massive Data, Data Science",
+      "authors": {
+        "Anne Laurent": true,
+        "Anne Coudert": true,
+        "Baptiste Chapuisat": true
+      },
+      "categories": {
+        "service": true
+      },
+      "room": "poster_232",
+      "poster": "",
+      "thumbnail": "",
+      "display": false,
+      "init_display": false,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }, {
+      "number": 300,
+      "title": "Joining the Tripal community to efficiently expose your research",
+      "keywords": "CMS, Drupal, Tripal, CHADO, Website, HTML",
+      "authors": {
+        "Valentin Guignon": true,
+        "Ethalinda K S Cannon": true,
+        "Dorrie Main": true,
+        "Monica Poelchau": true,
+        "Manuel Ruiz": true,
+        "Lacey-Anne Sanderson": true,
+        "Margaret Staton": true,
+        "Jill Wegrzyn": true,
+        "Stephen P Ficklin": true
+      },
+      "categories": {
+        "FAIR": true,
+        "visualization": true,
+        "service": true
+      },
+      "room": "poster_300",
+      "poster": "jobim2020_poster_300.pdf",
+      "thumbnail": "jobim2020_poster_300.jpg",
+      "display": true,
+      "init_display": true,
+      "match_title": true,
+      "match_keywords": true,
+      "match_number": true
+    }
+  ]
+}
