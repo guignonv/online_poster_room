@@ -10,19 +10,19 @@
   </head>
   <body>
     <h1>Online Poster Room Example</h1>
-    <div id="jobim_poster_browser">&nbsp;</div>
+    <div id="online_poster_room_browser">&nbsp;</div>
     <script type="text/javascript">// <![CDATA[
-      var jobim = {poster_show: false, lang: 'en'};
+      var opr = {poster_show: false, lang: 'en'};
       $(function () {
         $.getJSON("poster_room.json", function(json_data) {
-          jobim = json_data;
+          opr = json_data;
         })
         .fail(function (jqxhr, textStatus, error) {
           var err = textStatus + ", " + error;
           console.log('Failed to load JSON data: ' + err);
         })
         .always(function () {
-          jobim_init_poster_room(jobim);
+          init_online_poster_room(opr);
         });
       });
     // ]]></script>

@@ -29,13 +29,42 @@ clients and you will have to create a web page with a code similar to the
 following one:
 
 ```
+  ...
+  <head>
+    ...
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="poster_room.js"></script>
+    <link rel="stylesheet" type="text/css" href="poster_room.css">
+    ...
+  </head>
+  <body>
+    ...
+    <div id="online_poster_room_browser">&nbsp;</div>
+    <script type="text/javascript">// <![CDATA[
+      var opr = {poster_show: false, lang: 'en'};
+      $(function () {
+        $.getJSON("poster_room.json", function(json_data) {
+          opr = json_data;
+        })
+        .fail(function (jqxhr, textStatus, error) {
+          var err = textStatus + ", " + error;
+          console.log('Failed to load JSON data: ' + err);
+        })
+        .always(function () {
+          init_online_poster_room(opr);
+        });
+      });
+    // ]]></script>
+    ...
+  </body>
+  ...
 ```
 
 If you use a CMS and have restricted access to the HTML header, you can try the
 following (assuming jQuery is available):
 
 ```
-<div id="jobim_poster_browser">&nbsp;</div>
+<div id="online_poster_room_browser">&nbsp;</div>
 <script type="text/javascript" src="https://your.site.web/path_to/poster_room.js"></script>
 <script type="text/javascript">// <![CDATA[
 // Add style sheet.
@@ -44,14 +73,14 @@ $.get(css, function(data) {
   $("<style type=\"text/css\">" + data + "</style>").appendTo(document.head);
 });
 // Init settings.
-var jobim = {poster_show: true, lang: 'en'};
+var opr = {poster_show: true, lang: 'en'};
 // Get data.
-$.getJSON("/path_to/poster_room.json", function(json) {
-  jobim = json;
+$.getJSON("/path_to/poster_room.json", function(json_data) {
+  opr = json_data;
 });
 // Start room.
 $(function () {
-  jobim_init_poster_room(jobim);
+  init_online_poster_room(opr);
 });
 // ]]></script>
 ```
@@ -70,7 +99,8 @@ For the versions available, see the [tags on this repository]
 
 * **Valentin Guignon** - *Initial work* - [guignonv](https://github.com/guignonv)
 
-See also the list of [contributors](https://github.com/guignonv/online_poster_room/contributors)
+See also the list of
+[contributors](https://github.com/guignonv/online_poster_room/contributors)
 who participated in this project.
 
 ## License
@@ -80,4 +110,5 @@ details
 
 ## Acknowledgments
 
-The Alliance Bioversity International CIAT (a CGIAR center).
+* JOBIM Organizing Committee and Program Committee for review.
+* The Alliance Bioversity International - CIAT (a CGIAR center).

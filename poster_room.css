@@ -1,30 +1,31 @@
 /**
- * JOBIM Poster Virtual Room CSS.
+ * Online Poster Room CSS.
  * v1.3.0
  * Author: Valentin Guignon
  * Date: 06/07/2020
  * Copyright (C) The Alliance Bioversity - CIAT
+ * GitHub: https://github.com/guignonv/online_poster_room
  */
 /* Poster browser */
-#jobim_poster_browser {
+#online_poster_room_browser {
 }
 
 /* Filter bar */
-#jobim_poster_filters {
+#opr_filters {
 }
 
 /* Filter */
-.jobim-filter {
+.opr-filter {
   margin: 0.5em 0;
   clear: both;
 }
 
-.jobim-label {
+.opr-label {
   display: inline-block;
   font-weight: bold;
 }
 
-#jobim_poster_filters .jobim-label {
+#opr_filters .opr-label {
   display: inline-block;
   width: 25%;
 }
@@ -39,11 +40,11 @@ input[id$=_filter_text] {
   width: 67%;
 }
 
-.jobim-checkbox-group {
+.opr-checkbox-group {
   clear: both;
 }
 
-.jobim-checkbox {
+.opr-checkbox {
   display: inline-block;
   float: left;
   width: 340px;
@@ -51,12 +52,12 @@ input[id$=_filter_text] {
 }
 
 /* Gallery container */
-#jobim_poster_gallery {
+#opr_gallery {
   column-width: 300px;
 }
 
 /* Poster block */
-.jobim-poster {
+.opr-poster {
   display: inline-block;
   width: 296px;
   -webkit-column-break-inside: avoid;
@@ -70,65 +71,65 @@ input[id$=_filter_text] {
   background: radial-gradient(circle, rgba(255,255,240,1) 0%, rgba(128,215,255,1) 100%);
 }
 
-.jobim-poster a,
-.jobim-poster a:link {
+.opr-poster a,
+.opr-poster a:link {
   font-weight: bold;
   padding: 1px 4px 3px 4px;
   background-color: #001456;
   color: yellow;
 }
 
-.jobim-poster a:hover,
-.jobim-poster a:active {
+.opr-poster a:hover,
+.opr-poster a:active {
   color: white;
 }
 
-.jobim-poster a:visited {
+.opr-poster a:visited {
   color: orange;
 }
 
 /* Poster title */
-.jobim-poster-title {
+.opr-poster-title {
   font-weight: bold;
   font-style: italic;
 }
 
 /* Poster authors container */
-.jobim-poster-authors {
+.opr-poster-authors {
 }
 /* Poster author */
-.jobim-poster-author {
+.opr-poster-author {
 }
 /* Poster institutes container */
-.jobim-poster-institutes {
+.opr-poster-institutes {
 }
 /* Poster institute */
-.jobim-poster-institute {
+.opr-poster-institute {
 }
 /* Poster abstract */
-.jobim-poster-abstract {
+.opr-poster-abstract {
 }
 /* Poster keywords container */
-.jobim-poster-keywords {
+.opr-poster-keywords {
 }
 /* Poster keyword */
-.jobim-poster-keyword {
+.opr-poster-keyword {
 }
 /* Poster categories container */
-.jobim-poster-categories {
+.opr-poster-categories {
 }
 /* Poster category */
-.jobim-poster-category {
+.opr-poster-category {
 }
 /* Poster URL */
-.jobim-poster-url {
+.opr-poster-url {
 }
 /* Poster thumbnail */
-.jobim-poster-thumbnail img {
+.opr-poster-thumbnail img {
   width: 290px;
   border: 1px solid black;
 }
-.jobim-no-thumbnail {
+.opr-no-thumbnail {
   display: flex;
   width: 290px;
   height: 205px;
@@ -147,19 +148,19 @@ input[id$=_filter_text] {
   font-size: 1.5em;
 }
 /* Poster room */
-.jobim-poster-room {
+.opr-poster-room {
   float: left;
 }
 /* Poster PDF */
-.jobim-poster-pdf {
+.opr-poster-pdf {
   float: right;
 }
 
 /* Sponsor */
-.jobim-vpr-sponsor {
+.opr-vpr-sponsor {
   text-align: right;
 }
-.jobim-vpr-sponsor img {
+.opr-vpr-sponsor img {
   width: 200px;
   vertical-align: top;
 }

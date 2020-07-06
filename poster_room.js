@@ -1,9 +1,10 @@
 /**
- * JOBIM Poster Virtual Room.
+ * Online Poster Room JS.
  * v1.3.0
  * Author: Valentin Guignon
  * Date: 06/07/2020
  * Copyright (C) The Alliance Bioversity - CIAT
+ * GitHub: https://github.com/guignonv/online_poster_room
  *
  * Requires jQuery >= 1.7
  *
@@ -11,19 +12,25 @@
  *   Include CSS and JS.
  *
  *   In HTML body:
- *    <div id="jobim_poster_browser">&nbsp;</div>
+ *    <div id="online_poster_room_browser">&nbsp;</div>
  *    <script type="text/javascript">// <![CDATA[
- *      var jobim = {poster_show: true, lang: 'en'};
+ *      var opr = {poster_show: true, lang: 'en'};
  *      $.getJSON("poster_room.json", function(json_data) {
- *        jobim = json_data;
+ *        opr = json_data;
  *      });
  *      $(function () {
- *        jobim_init_poster_room();
+ *        init_online_poster_room();
  *      });
  *    // ]]></script>
  *
- *   nb.: other values can be customized in var jobim. See code for details.
+ *   nb.: other values can be customized. See poster_room.json and code for
+ *   details.
  */
+
+// Declare global opr variable if not declared.
+if (typeof opr == 'undefined') {
+  opr = {};
+}
 
 /**
  * Tells if a variable is set.
@@ -52,7 +59,7 @@ function jisset(obj) {
  * @param label (string)
  *   Label for the list of elements.
  */
-function jobim_render_hash(hash, container_class, element_class = null, label = null) {
+function opr_render_hash(hash, container_class, element_class = null, label = null) {
   var values_array = [];
   for (var key in hash) {
     if (jisset(key)) {
@@ -66,7 +73,7 @@ function jobim_render_hash(hash, container_class, element_class = null, label = 
     }
   }
   return '<span class="' + container_class + '">'
-    + (jisset(label) ? '<span class="jobim-label">' + label + '</span>: ' : '')
+    + (jisset(label) ? '<span class="opr-label">' + label + '</span>: ' : '')
     + values_array.join(', ')
     + '</span>';
 }
@@ -83,7 +90,7 @@ function jobim_render_hash(hash, container_class, element_class = null, label = 
  * @param container_class (string)
  *   CSS class name of the container element if a label is set.
  */
-function jobim_render_field(value, element_class, label = null, container_class = null) {
+function opr_render_field(value, element_class, label = null, container_class = null) {
   if (!jisset(value)) {
     return '';
   }
@@ -94,7 +101,7 @@ function jobim_render_field(value, element_class, label = null, container_class 
     if (jisset(label)) {
       field_html =
         '<span class="' + container_class + '">\n'
-        + '<span class="jobim-label">' + label + '</span>\n'
+        + '<span class="opr-label">' + label + '</span>\n'
         + field_html
         + '\n</span>';
     }
@@ -107,8 +114,8 @@ function jobim_render_field(value, element_class, label = null, container_class 
  * @param: number (string)
  *   Poster number.
  */
-function jobim_render_number(number) {
-  return jobim_render_field('#' + number, 'jobim-poster-number');
+function opr_render_number(number) {
+  return opr_render_field('#' + number, 'opr-poster-number');
 }
 
 /**
@@ -117,8 +124,8 @@ function jobim_render_number(number) {
  * @param: title (string)
  *   Poster title.
  */
-function jobim_render_title(title) {
-  return jobim_render_field(title, 'jobim-poster-title');
+function opr_render_title(title) {
+  return opr_render_field(title, 'opr-poster-title');
 }
 
 /**
@@ -127,11 +134,11 @@ function jobim_render_title(title) {
  * @param: authors (hash)
  *   keys are author names.
  */
-function jobim_render_authors(authors) {
-  return jobim_render_hash(
+function opr_render_authors(authors) {
+  return opr_render_hash(
     authors,
-    'jobim-poster-authors',
-    'jobim-poster-author'
+    'opr-poster-authors',
+    'opr-poster-author'
   );
 }
 
@@ -141,8 +148,8 @@ function jobim_render_authors(authors) {
  * @param: keywords (hash)
  *   keys are keywords.
  */
-function jobim_render_keywords(keywords) {
-  return jobim_render_field(keywords, 'jobim-poster-keywords', jobim.labels['keywords'][jobim.lang]);
+function opr_render_keywords(keywords) {
+  return opr_render_field(keywords, 'opr-poster-keywords', opr.labels['keywords'][opr.lang]);
 }
 
 /**
@@ -151,12 +158,12 @@ function jobim_render_keywords(keywords) {
  * @param: categories (hash)
  *   keys are categories.
  */
-function jobim_render_categories(categories) {
-  return jobim_render_hash(
+function opr_render_categories(categories) {
+  return opr_render_hash(
     categories,
-    'jobim-poster-categories',
-    'jobim-poster-category',
-    jobim.labels['categories'][jobim.lang]
+    'opr-poster-categories',
+    'opr-poster-category',
+    opr.labels['categories'][opr.lang]
   );
 }
 
@@ -166,15 +173,15 @@ function jobim_render_categories(categories) {
  * @param: room (string)
  *   a poster room identifier.
  */
-function jobim_render_room(room) {
-  if ((typeof jobim.meeting_room_base_url == 'undefined')
-      || ('' == jobim.meeting_room_base_url)) {
+function opr_render_room(room) {
+  if ((typeof opr.meeting_room_base_url == 'undefined')
+      || ('' == opr.meeting_room_base_url)) {
     return '';
   }
-  return '<span class="jobim-poster-room"><span class="jobim-label">'
-    + jobim.labels['room'][jobim.lang]
+  return '<span class="opr-poster-room"><span class="opr-label">'
+    + opr.labels['room'][opr.lang]
     + ':</span> <a href="'
-    + jobim.meeting_room_base_url
+    + opr.meeting_room_base_url
     + room
     + '" target="_blank">'
     + room
@@ -188,17 +195,17 @@ function jobim_render_room(room) {
  * @param: pdf (string)
  *   a poster pdf file name.
  */
-function jobim_render_pdf(pdf) {
-  if ((typeof jobim.poster_base_url == 'undefined')
-      || ('' == jobim.poster_base_url)) {
+function opr_render_pdf(pdf) {
+  if ((typeof opr.poster_base_url == 'undefined')
+      || ('' == opr.poster_base_url)) {
     return '';
   }
-  return '<span class="jobim-poster-pdf">'
+  return '<span class="opr-poster-pdf">'
     + '<a href="'
-    + jobim.poster_base_url
+    + opr.poster_base_url
     + pdf
     + '" target="_blank">'
-    + jobim.labels['pdf'][jobim.lang]
+    + opr.labels['pdf'][opr.lang]
     + '</a></span>\n'
   ;
 }
@@ -209,23 +216,23 @@ function jobim_render_pdf(pdf) {
  * @param: thumbnail (string)
  *   a poster thumbnail image file name.
  */
-function jobim_render_thumbnail(thumbnail) {
-  if ((typeof jobim.thumbnail_base_url == 'undefined')
-      || ('' == jobim.thumbnail_base_url)) {
+function opr_render_thumbnail(thumbnail) {
+  if ((typeof opr.thumbnail_base_url == 'undefined')
+      || ('' == opr.thumbnail_base_url)) {
     return '';
   }
   var html_block = '';
   if (jisset(thumbnail)) {
-    html_block = '<span class="jobim-poster-thumbnail">'
+    html_block = '<span class="opr-poster-thumbnail">'
       + '<img alt="Poster preview" src="'
-      + jobim.thumbnail_base_url
+      + opr.thumbnail_base_url
       + thumbnail
       + '"/>'
       + '</span>\n'
     ;
   }
   else {
-    html_block = '<span class="jobim-no-thumbnail">No poster preview available</span>\n';
+    html_block = '<span class="opr-no-thumbnail">No poster preview available</span>\n';
   }
   return html_block;
 }
@@ -234,29 +241,29 @@ function jobim_render_thumbnail(thumbnail) {
  * Renders a poster object as HTML.
  *
  * @param poster (object)
- *   a poster hash from jobim.posters array.
+ *   a poster hash from opr.posters array.
  *
  * @param index (int)
  *   The index of the poster in the displayed array. Can be null.
  */
-function jobim_render_poster(poster, index = null) {
+function opr_render_poster(poster, index = null) {
   var poster_html =
-    '<div class="jobim-poster">\n  '
-    + jobim_render_number(poster['number']) + '&nbsp;'
-    + jobim_render_title(poster['title']) + '<br/>\n  '
-    + jobim_render_authors(poster['authors']) + '<br/>\n  '
+    '<div class="opr-poster">\n  '
+    + opr_render_number(poster['number']) + '&nbsp;'
+    + opr_render_title(poster['title']) + '<br/>\n  '
+    + opr_render_authors(poster['authors']) + '<br/>\n  '
     + (jisset(poster['categories'])
-      ? jobim_render_categories(poster['categories']) + '<br/>\n  '
+      ? opr_render_categories(poster['categories']) + '<br/>\n  '
       : '')
     + (jisset(poster['keywords'])
-      ? jobim_render_keywords(poster['keywords']) + '<br/><br/>\n  '
+      ? opr_render_keywords(poster['keywords']) + '<br/><br/>\n  '
       : '')
-    + jobim_render_thumbnail(poster['thumbnail']) + '<br/>\n  '
+    + opr_render_thumbnail(poster['thumbnail']) + '<br/>\n  '
     + (jisset(poster['room'])
-      ? jobim_render_room(poster['room']) + '\n  '
+      ? opr_render_room(poster['room']) + '\n  '
       : '')
     + (jisset(poster['poster'])
-      ? jobim_render_pdf(poster['poster']) + '\n'
+      ? opr_render_pdf(poster['poster']) + '\n'
       : '')
     + '</div>';
   return poster_html;
@@ -265,34 +272,34 @@ function jobim_render_poster(poster, index = null) {
 /**
  * Update Poster Gallery display.
  */
-function jobim_update_gallery() {
+function opr_update_gallery() {
   // Clear gallery.
-  $('#jobim_poster_gallery').empty();
+  $('#opr_gallery').empty();
   var displayed_poster_count = 0;
   var poster_count = 0;
   // Update poster display status.
-  jobim.posters.forEach(function (poster) {
+  opr.posters.forEach(function (poster) {
     if (poster['init_display']) {
      ++poster_count;
     }
     poster['display'] = false;
     var category_match = (
-      ((0 < $('#jobim_categories_filter input:checked').length)
-        && (0 < $('#jobim_categories_filter input:not(:checked)').length))
+      ((0 < $('#opr_categories_filter input:checked').length)
+        && (0 < $('#opr_categories_filter input:not(:checked)').length))
       ? false
       : true
     );
     // Categories.
     for (key in poster['categories']) {
-      if (jobim.filters['categories'][key]) {
+      if (opr.filters['categories'][key]) {
         category_match = true;
       }
     }
     // Authors.
-    var author_match = (('' != $('#jobim_authors_select').val()) ? false : true);
+    var author_match = (('' != $('#opr_authors_select').val()) ? false : true);
     if (!author_match) {
       for (key in poster['authors']) {
-        if (jobim.filters['authors'][key]) {
+        if (opr.filters['authors'][key]) {
           author_match = true;
         }
       }
@@ -317,20 +324,20 @@ function jobim_update_gallery() {
 
   });
   // Update HTML.
-  $('#jobim_poster_count').html(
-    jobim.labels['posters_count'][jobim.lang]
+  $('#opr_poster_count').html(
+    opr.labels['posters_count'][opr.lang]
     + ' '
     + displayed_poster_count
     + ' '
-    + jobim.labels['over'][jobim.lang]
+    + opr.labels['over'][opr.lang]
     + ' '
     + poster_count
     + ' '
-    + jobim.labels['posters'][jobim.lang]
+    + opr.labels['posters'][opr.lang]
   );
-  jobim.posters.forEach(function (poster) {
+  opr.posters.forEach(function (poster) {
     if (poster['display']) {
-      $('#jobim_poster_gallery').append(jobim_render_poster(poster));
+      $('#opr_gallery').append(opr_render_poster(poster));
     }
   });
 }
@@ -338,21 +345,21 @@ function jobim_update_gallery() {
 /**
  * Initialize filters possible values.
  */
-function jobim_init_filters() {
+function opr_init_filters() {
   var key;
-  jobim.filter_list.forEach(function (filter_name) {
-    jobim.filters[filter_name] = {};
+  opr.filter_list.forEach(function (filter_name) {
+    opr.filters[filter_name] = {};
   });
-  jobim.posters.forEach(function (poster, index) {
+  opr.posters.forEach(function (poster, index) {
     // Save initial display status.
-    jobim.posters[index]['init_display'] = poster['display'];
-    jobim.match_list.forEach(function (match_name) {
+    opr.posters[index]['init_display'] = poster['display'];
+    opr.match_list.forEach(function (match_name) {
       poster['match_' + match_name] = true;
     });
-    jobim.filter_list.forEach(function (filter_name) {
+    opr.filter_list.forEach(function (filter_name) {
       for (key in poster[filter_name]) {
         if (jisset(key)) {
-          jobim.filters[filter_name][key] = true;
+          opr.filters[filter_name][key] = true;
         }
       }
     });
@@ -362,52 +369,52 @@ function jobim_init_filters() {
 /**
  * Render filter dropdown.
  */
-function jobim_render_filter_dropdown(filter_name, filter_label) {
+function opr_render_filter_dropdown(filter_name, filter_label) {
   // Label.
   var $filter = $(
-    '<div id="jobim_'
+    '<div id="opr_'
     + filter_name
-    + '_filter" class="jobim-filter"><span class="jobim-label">'
-    + jobim.labels[filter_label][jobim.lang]
+    + '_filter" class="opr-filter"><span class="opr-label">'
+    + opr.labels[filter_label][opr.lang]
     + ':</span>&nbsp;</div>'
   );
   // Dropdown and its behavior.
-  $('<select name="' + filter_name + '" id="jobim_' + filter_name + '_select">\n</select>')
+  $('<select name="' + filter_name + '" id="opr_' + filter_name + '_select">\n</select>')
     .appendTo($filter)
     .append('<option value="" selected="selected">-</option>\n')
     .on('change', function () {
       // An element has been selected.
       if ('' != $(this).val()) {
-        for (key in jobim.filters[filter_name]) {
+        for (key in opr.filters[filter_name]) {
           if ($(this).val() == key) {
             // Selected element.
-            jobim.filters[filter_name][key] = true;
+            opr.filters[filter_name][key] = true;
           }
           else {
             // Other unselected element.
-            jobim.filters[filter_name][key] = false;
+            opr.filters[filter_name][key] = false;
           }
         }
       }
       else {
         // No element selected, disable filter (all elements "on").
-        for (key in jobim.filters[filter_name]) {
-          jobim.filters[filter_name][key] = true;
+        for (key in opr.filters[filter_name]) {
+          opr.filters[filter_name][key] = true;
         }
       }
-      jobim_update_gallery();
+      opr_update_gallery();
     })
   ;
   // Now add elements to the dropdown list.
   var elements = [];
-  for (key in jobim.filters[filter_name]) {
+  for (key in opr.filters[filter_name]) {
     elements.push(key);
   }
   // Sort elements.
   elements = elements.sort(Intl.Collator().compare);
   // Add options.
   elements.forEach(function (element) {
-    $filter.find('#jobim_' + filter_name + '_select')
+    $filter.find('#opr_' + filter_name + '_select')
       .append('<option value="' + element + '">' + element + '</option>\n')
     ;
   });
@@ -418,55 +425,55 @@ function jobim_render_filter_dropdown(filter_name, filter_label) {
 /**
  * Render filter checkboxes.
  */
-function jobim_render_filter_checkboxes(filter_name, filter_label) {
+function opr_render_filter_checkboxes(filter_name, filter_label) {
   // Filter container.
   var $filter = $(
-    '<div id="jobim_'
+    '<div id="opr_'
     + filter_name
-    + '_filter" class="jobim-filter"><input type="checkbox" id="jobim_'
+    + '_filter" class="opr-filter"><input type="checkbox" id="opr_'
     + filter_name
-    + '_filter_master_checkbox" value="" checked="checked" class="jobim-master-checkbox"/><label class="jobim-label" for="jobim_'
+    + '_filter_master_checkbox" value="" checked="checked" class="opr-master-checkbox"/><label class="opr-label" for="opr_'
     + filter_name
     + '_filter_master_checkbox">'
-    + jobim.labels[filter_label][jobim.lang]
-    + ':</label><br/><div class="jobim-checkbox-group"></div></div>'
+    + opr.labels[filter_label][opr.lang]
+    + ':</label><br/><div class="opr-checkbox-group"></div></div>'
   );
   // Master checkbox behavior.
-  $filter.find('> input.jobim-master-checkbox')
+  $filter.find('> input.opr-master-checkbox')
     .on('click', function () {
-      $filter.find('input.jobim-' + filter_name).prop('checked', this.checked);
-      for (key in jobim.filters[filter_name]) {
-        jobim.filters[filter_name][key] = this.checked;
+      $filter.find('input.opr-' + filter_name).prop('checked', this.checked);
+      for (key in opr.filters[filter_name]) {
+        opr.filters[filter_name][key] = this.checked;
       }
-      jobim_update_gallery();
+      opr_update_gallery();
     })
   ;
-  var $checkbox_group = $filter.find('div.jobim-checkbox-group');
+  var $checkbox_group = $filter.find('div.opr-checkbox-group');
   // Filtering values.
-  for (key in jobim.filters[filter_name]) {
-    var $checkbox_element = $('<div class="jobim-checkbox"></div>');
-    var checkbox_id = 'jobim_' + filter_name + '_' + key.replace(/\W+/g, '_');
+  for (key in opr.filters[filter_name]) {
+    var $checkbox_element = $('<div class="opr-checkbox"></div>');
+    var checkbox_id = 'opr_' + filter_name + '_' + key.replace(/\W+/g, '_');
     $(
       '<input id="'
       + checkbox_id
       + '" type="checkbox" value="'
       + key
       + '"'
-      + (jobim.filters[filter_name][key]
-          ? ' class="jobim-' + filter_name + '" checked="checked"'
+      + (opr.filters[filter_name][key]
+          ? ' class="opr-' + filter_name + '" checked="checked"'
           : ''
         )
       + '/>'
     )
       .appendTo($checkbox_element)
       .on('change', function() {
-        jobim.filters[filter_name][$(this).val()]= $(this).prop('checked');
-        jobim_update_gallery();
+        opr.filters[filter_name][$(this).val()]= $(this).prop('checked');
+        opr_update_gallery();
       })
     ;
     var label = key;
-    if (key in jobim.labels) {
-      label = jobim.labels[key][jobim.lang];
+    if (key in opr.labels) {
+      label = opr.labels[key][opr.lang];
     }
     $checkbox_element
       .append('&nbsp;<label for="' + checkbox_id + '">' + label + '</label>');
@@ -482,30 +489,30 @@ function jobim_render_filter_checkboxes(filter_name, filter_label) {
 /**
  * Render filter text.
  */
-function jobim_render_filter_text(filter_name, filter_label) {
+function opr_render_filter_text(filter_name, filter_label) {
   // Filter container.
   var $filter = $(
-    '<div id="jobim_'
+    '<div id="opr_'
     + filter_name
-    + '_filter" class="jobim-filter"><label class="jobim-label" for="jobim_'
+    + '_filter" class="opr-filter"><label class="opr-label" for="opr_'
     + filter_name
     + '_filter_text">'
-    + jobim.labels[filter_label][jobim.lang]
-    + ':</label>&nbsp;<input type="text" id="jobim_'
+    + opr.labels[filter_label][opr.lang]
+    + ':</label>&nbsp;<input type="text" id="opr_'
     + filter_name
-    + '_filter_text" value="" class="jobim-filter-'
+    + '_filter_text" value="" class="opr-filter-'
     + filter_name
     + '-text"/><br/></div>'
   );
   // Text filtering behavior.
-  $filter.find('#jobim_'
+  $filter.find('#opr_'
     + filter_name
     + '_filter_text')
     .on('input', function () {
       if (jisset($(this).val())) {
         var search_text = $(this).val().toLocaleLowerCase();
         // Update posters' matching status.
-        jobim.posters.forEach(function (poster) {
+        opr.posters.forEach(function (poster) {
           var poster_display = false;
           if (0 <= (''+poster[filter_name]).toLocaleLowerCase().indexOf(search_text)) {
             poster_display = true;
@@ -515,11 +522,11 @@ function jobim_render_filter_text(filter_name, filter_label) {
       }
       else {
         // No text, show all.
-        jobim.posters.forEach(function (poster) {
+        opr.posters.forEach(function (poster) {
           poster['match_' + filter_name] = true;
         });
       }
-      jobim_update_gallery();
+      opr_update_gallery();
     })
   ;
 
@@ -529,62 +536,58 @@ function jobim_render_filter_text(filter_name, filter_label) {
 /**
  * Render filter bar.
  */
-function jobim_render_filters() {
+function opr_render_filters() {
   var key;
-  $('#jobim_poster_browser').prepend('<div id="jobim_poster_filters"></div>');
+  $('#online_poster_room_browser').prepend('<div id="opr_filters"></div>');
 
   // Categories filter.
-  $('#jobim_poster_filters').append( jobim_render_filter_checkboxes('categories', 'categories') );
-  $('#jobim_poster_filters').append( '<br/>' );
+  $('#opr_filters').append( opr_render_filter_checkboxes('categories', 'categories') );
+  $('#opr_filters').append( '<br/>' );
 
   // Title filter.
-  $('#jobim_poster_filters').append( jobim_render_filter_text('title', 'title_filter') );
-  $('#jobim_poster_filters').append( '<br/>' );
+  $('#opr_filters').append( opr_render_filter_text('title', 'title_filter') );
+  $('#opr_filters').append( '<br/>' );
 
   // Keywords filter.
-  $('#jobim_poster_filters').append( jobim_render_filter_text('keywords', 'keywords_filter') );
-  $('#jobim_poster_filters').append( '<br/>' );
+  $('#opr_filters').append( opr_render_filter_text('keywords', 'keywords_filter') );
+  $('#opr_filters').append( '<br/>' );
 
   // Authors filter.
-  $('#jobim_poster_filters').append( jobim_render_filter_dropdown('authors', 'authors') );
-  $('#jobim_poster_filters').append( '<br/>' );
+  $('#opr_filters').append( opr_render_filter_dropdown('authors', 'authors') );
+  $('#opr_filters').append( '<br/>' );
 
   // Number filter.
-  $('#jobim_poster_filters').append( jobim_render_filter_text('number', 'number_filter') );
-  $('#jobim_poster_filters').append( '<br/>' );
+  $('#opr_filters').append( opr_render_filter_text('number', 'number_filter') );
+  $('#opr_filters').append( '<br/>' );
 
 }
 
 /******************************************************************************/
 
 // Initialize the whole broswer.
-function jobim_init_poster_room(jobim) {
+function init_online_poster_room(opr) {
 
-  // Declare jobim variable if not declared and init what's needed.
-  if (typeof jobim == 'undefined') {
-    jobim = {};
-  }
-
-  if (typeof jobim.poster_show == 'undefined') {
-    jobim.poster_show = 0;
+  // Init what's needed.
+  if (typeof opr.poster_show == 'undefined') {
+    opr.poster_show = 0;
   }
 
   // Poster data.
-  if (typeof jobim.posters == 'undefined') {
-    jobim.posters = [];
+  if (typeof opr.posters == 'undefined') {
+    opr.posters = [];
   }
 
-  if (typeof jobim.lang == 'undefined') {
+  if (typeof opr.lang == 'undefined') {
     if ((typeof lang == 'undefined') || ('fr' == lang)) {
-      jobim.lang = 'fr';
+      opr.lang = 'fr';
     }
     else {
-      jobim.lang = 'en';
+      opr.lang = 'en';
     }
   }
 
-  if (typeof jobim.labels == 'undefined') {
-    jobim.labels = {
+  if (typeof opr.labels == 'undefined') {
+    opr.labels = {
       closed: {
         en: 'The virtual poster room is currently closed. Please come back later, thanks for your visit.',
         fr: 'La salle virtuelle des posters est actuellement fermée. Veuillez repasser plus tard, merci pour votre visite.'
@@ -688,42 +691,42 @@ function jobim_init_poster_room(jobim) {
     };
   }
 
-  if (typeof jobim.meeting_room_base_url == 'undefined') {
-    jobim.meeting_room_base_url = '';
+  if (typeof opr.meeting_room_base_url == 'undefined') {
+    opr.meeting_room_base_url = '';
   }
 
-  if (typeof jobim.poster_base_url == 'undefined') {
-    jobim.poster_base_url = '';
+  if (typeof opr.poster_base_url == 'undefined') {
+    opr.poster_base_url = '';
   }
 
-  if (typeof jobim.thumbnail_base_url == 'undefined') {
-    jobim.thumbnail_base_url = '';
+  if (typeof opr.thumbnail_base_url == 'undefined') {
+    opr.thumbnail_base_url = '';
   }
 
   // Filters data.
-  if (typeof jobim.filter_list == 'undefined') {
-    jobim.filter_list = ['categories', 'authors'];
+  if (typeof opr.filter_list == 'undefined') {
+    opr.filter_list = ['categories', 'authors'];
   }
-  if (typeof jobim.match_list == 'undefined') {
-    jobim.match_list = ['title', 'keywords', 'number'];
+  if (typeof opr.match_list == 'undefined') {
+    opr.match_list = ['title', 'keywords', 'number'];
   }
-  if (typeof jobim.filters == 'undefined') {
-    jobim.filters = {};
+  if (typeof opr.filters == 'undefined') {
+    opr.filters = {};
   }
 
   var url_params = new URLSearchParams(window.location.search);
   var poster_bypass = url_params.get('poster_bypass');
   // Merci à ceux qui utilisent 'poster_bypass' de le garder pour eux. ;-)
-  if (jobim.poster_show || poster_bypass) {
-    jobim_init_filters();
-    jobim_render_filters();
-    $('#jobim_poster_browser')
-      .append('<div id="jobim_poster_count"></div>')
-      .append('<div id="jobim_poster_gallery"></div>');
-    jobim_update_gallery();
+  if (opr.poster_show || poster_bypass) {
+    opr_init_filters();
+    opr_render_filters();
+    $('#online_poster_room_browser')
+      .append('<div id="opr_poster_count"></div>')
+      .append('<div id="opr_gallery"></div>');
+    opr_update_gallery();
   }
   else {
-    $('#jobim_poster_browser')
-      .append('<div>' + jobim.labels['closed'][jobim.lang] + '</div>');
+    $('#online_poster_room_browser')
+      .append('<div>' + opr.labels['closed'][opr.lang] + '</div>');
   }
 }
