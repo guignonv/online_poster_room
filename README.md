@@ -1,9 +1,12 @@
 # Online Poster Room
 
-The Online Poster Room is a virtual room on a web page that displays posters
+The Online Poster Room is a virtual room on a web page that displays (scientific)
 poster thumbnails with links to full poster and a meeting room. This application
 has been initially developped for JOBIM 2020 bioinformatics conference as the
 event has been turned into a virtual form due to COVID-19.
+
+## Example Demo
+[JOBIM 2020 Virtual Poster Room](https://jobim2020.sciencesconf.org/resource/page/id/23)
 
 ## Getting Started
 
